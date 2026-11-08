@@ -10,7 +10,7 @@ um() {
   i=$1
   python cubo.py cnf_cubo "$INST" "$i" "work/c$i.cnf"
   t0=$(date +%s)
-  ./cadical -q -t "$TC" "work/c$i.cnf" "work/p$i.drat" > "work/s$i.txt"; rc=$?
+  ./cadical -t "$TC" "work/c$i.cnf" "work/p$i.drat" > "work/s$i.txt"; rc=$?
   t1=$(date +%s)
   if [ $rc -eq 20 ]; then
     out=$(./drat-trim "work/c$i.cnf" "work/p$i.drat" -t "$TD" 2>&1 | tail -5)
