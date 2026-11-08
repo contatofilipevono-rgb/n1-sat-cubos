@@ -1,0 +1,88 @@
+name: cubos
+on:
+  workflow_dispatch:
+    inputs:
+      classe: {description: "F4+F4, F4^2, Q4a, Q4b, Q4c", required: true, default: "F4+F4"}
+      auto: {description: "arquivo de geradores", required: true, default: "automorfismos_F4F4.json"}
+      orbitas: {description: "indices das orbitas (ex. 3 ou 0,1,2)", required: true, default: "3"}
+      k: {description: "variaveis de C3 a dividir (2^k cubos)", required: true, default: "6"}
+      por_job: {description: "cubos por maquina (4 nucleos)", required: true, default: "4"}
+      tempo_cadical: {description: "segundos por cubo", required: true, default: "15000"}
+      tempo_drat: {description: "segundos de verificacao", required: true, default: "4500"}
+
+jobs:
+  gera:
+    runs-on: ubuntu-latest
+    outputs:
+      lotes: ${{ steps.m.outputs.lotes }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q python-sat pycryptosat numpy
+      - run: python cubo.py gera "${{ inputs.classe }}" "${{ inputs.auto }}" "${{ inputs.orbitas }}" "${{ inputs.k }}" inst
+      - id: m
+        run: echo "lotes=$(python -c "n=2**int('${{ inputs.k }}'); p=int('${{ inputs.por_job }}'); print(list(range(0,n,p)))")" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with: {name: inst, path: inst, retention-days: 30}
+
+  resolve:
+    needs: gera
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        i0: ${{ fromJSON(needs.gera.outputs.lotes) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q python-sat pycryptosat numpy
+      - uses: actions/cache@v4
+        id: ferr
+        with: {path: ferramentas, key: cadical-2.1.3-drat-trim-v1}
+      - if: steps.ferr.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ferramentas && cd ferramentas
+          git clone -q --depth 1 https://github.com/arminbiere/cadical.git
+          (cd cadical && ./configure -q && make -s -j4)
+          cp cadical/build/cadical .
+          curl -sL https://raw.githubusercontent.com/marijnheule/drat-trim/master/drat-trim.c -o drat-trim.c
+          gcc -O2 -o drat-trim drat-trim.c
+      - run: cp ferramentas/cadical ferramentas/drat-trim . && ./cadical --version
+      - uses: actions/download-artifact@v4
+        with: {name: inst, path: inst}
+      - run: bash resolve_lote.sh inst ${{ matrix.i0 }} ${{ inputs.por_job }} ${{ inputs.tempo_cadical }} ${{ inputs.tempo_drat }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: {name: "res-${{ matrix.i0 }}", path: res, retention-days: 30}
+
+  resumo:
+    needs: [gera, resolve]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: {pattern: "res-*", path: res, merge-multiple: true}
+      - uses: actions/download-artifact@v4
+        with: {name: inst, path: inst}
+      - run: |
+          python - <<'EOF'
+          import json, glob
+          c = json.load(open("inst/cubos.json")); n = len(c["cubos"])
+          r = {json.load(open(f))["cubo"]: json.load(open(f)) for f in glob.glob("res/cubo_*.json")}
+          uns = [i for i, x in r.items() if x["resultado"] == "UNSAT" and x.get("drat_verificado")]
+          sat = [i for i, x in r.items() if x["resultado"] == "SAT"]
+          ind = [i for i in range(n) if i not in uns and i not in sat]
+          resumo = {"classe": c["classe"], "orbitas": c["orbitas"], "S": c["S"], "cubos": n,
+                    "UNSAT_verificados": len(uns), "SAT": sorted(sat), "indecisos": sorted(ind),
+                    "conclusao": "UNSAT (todos os cubos verificados)" if len(uns) == n else
+                                 ("SAT encontrado" if sat else "incompleto")}
+          print(json.dumps(resumo, indent=1))
+          for i in sat: print("SAT cubo", i, json.dumps(r[i]["conferencia"])[:300])
+          json.dump({"resumo": resumo, "cubos": r}, open("resumo.json", "w"), indent=1)
+          EOF
+      - uses: actions/upload-artifact@v4
+        with: {name: resumo, path: resumo.json, retention-days: 90}
