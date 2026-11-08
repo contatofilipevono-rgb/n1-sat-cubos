@@ -42,16 +42,16 @@ jobs:
       - run: pip install -q python-sat pycryptosat numpy
       - uses: actions/cache@v4
         id: ferr
-        with: {path: ferramentas, key: cadical-2.1.3-drat-trim-v1}
+        with: {path: ferramentas, key: cadical-master-drat-trim-v2}
       - if: steps.ferr.outputs.cache-hit != 'true'
         run: |
           mkdir -p ferramentas && cd ferramentas
           git clone -q --depth 1 https://github.com/arminbiere/cadical.git
           (cd cadical && ./configure -q && make -s -j4)
-          cp cadical/build/cadical .
+          cp cadical/build/cadical cadical-bin
           curl -sL https://raw.githubusercontent.com/marijnheule/drat-trim/master/drat-trim.c -o drat-trim.c
           gcc -O2 -o drat-trim drat-trim.c
-      - run: cp ferramentas/cadical ferramentas/drat-trim . && ./cadical --version
+      - run: cp ferramentas/cadical-bin ./cadical && cp ferramentas/drat-trim . && ./cadical --version
       - uses: actions/download-artifact@v4
         with: {name: inst, path: inst}
       - run: bash resolve_lote.sh inst ${{ matrix.i0 }} ${{ inputs.por_job }} ${{ inputs.tempo_cadical }} ${{ inputs.tempo_drat }}
