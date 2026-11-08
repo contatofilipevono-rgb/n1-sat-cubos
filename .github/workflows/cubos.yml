@@ -52,6 +52,19 @@ jobs:
           curl -sL https://raw.githubusercontent.com/marijnheule/drat-trim/master/drat-trim.c -o drat-trim.c
           gcc -O2 -o drat-trim drat-trim.c
       - run: cp ferramentas/cadical-bin ./cadical && cp ferramentas/drat-trim . && ./cadical --version
+      - name: controle UNSAT (pombos 7 em 6) com prova DRAT verificada
+        run: |
+          python - <<'EOF'
+          n, m = 7, 6
+          v = lambda i, j: i * m + j + 1
+          cl = [[v(i, j) for j in range(m)] for i in range(n)]
+          cl += [[-v(i, j), -v(k, j)] for j in range(m) for i in range(n) for k in range(i + 1, n)]
+          open("php.cnf", "w").write(f"p cnf {n*m} {len(cl)}\n" + "".join(" ".join(map(str, c)) + " 0\n" for c in cl))
+          EOF
+          set +e; ./cadical php.cnf php.drat > /dev/null; rc=$?; set -e
+          test $rc -eq 20
+          ./drat-trim php.cnf php.drat | tee php.out | tail -2
+          grep -q "s VERIFIED" php.out
       - uses: actions/download-artifact@v4
         with: {name: inst, path: inst}
       - run: bash resolve_lote.sh inst ${{ matrix.i0 }} ${{ inputs.por_job }} ${{ inputs.tempo_cadical }} ${{ inputs.tempo_drat }}
