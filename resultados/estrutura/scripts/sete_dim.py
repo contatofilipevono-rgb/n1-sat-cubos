@@ -33,8 +33,13 @@ for v in vs:
             auxs.append(prox); prox += 1
         s.add_clause(auxs)  # combinacao v nao isotropica em U
 # independencia (evita phi's dependentes/zero): cada combinacao nao nula precisa ser != 0 -> ja implicado por N (0 e isotropico)
+CUBO = os.environ.get("CUBO")
+assum = []
+if CUBO is not None:
+    KB = int(os.environ.get("KB", 3))
+    assum = [var(0, j) if (int(CUBO) >> j) & 1 else -var(0, j) for j in range(KB)]
 t0 = time.time()
-r, sol = s.solve()
+r, sol = s.solve(assumptions=assum)
 out = {"classe": classe, "SAT": r, "t": round(time.time() - t0, 1), "U": len(Ms)}
 if r:
     out["phi"] = [[p for p in range(nc) if sol[var(i, p)]] for i in range(DIM)]
@@ -48,5 +53,5 @@ if r:
         ok &= all(any(bin(x & c).count("1") & 1 for x in M) for M in Ms)
     out["confere_7_sem_isotropico"] = ok
 print(json.dumps(out), flush=True)
-json.dump(out, open(f"sete_d{DIM}_{classe.replace('^','').replace('+','')}.json", "w"))
+json.dump(out, open(f"sete_d{DIM}_c{CUBO}_{classe.replace('^','').replace('+','')}.json", "w"))
 
