@@ -1,0 +1,57 @@
+name: bent-soma-n8
+on:
+  workflow_dispatch:
+    inputs:
+      which: {description: "4 = homogeneas grau 4 (1023), 42 = grau 4 + grau 2 (16383)", required: true, default: "4"}
+      nshards: {description: "numero de maquinas", required: true, default: "8"}
+
+jobs:
+  gera:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.m.outputs.shards }}
+    steps:
+      - id: m
+        run: echo "shards=$(python3 -c "print(list(range(${{ inputs.nshards }})))")" >> "$GITHUB_OUTPUT"
+
+  resolve:
+    needs: gera
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        i: ${{ fromJSON(needs.gera.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q numpy scipy
+      - run: python bent-soma-n8/controle.py
+      - run: python bent-soma-n8/shard.py "${{ inputs.which }}" ${{ matrix.i }} ${{ inputs.nshards }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: {name: "bsoma-${{ inputs.which }}-${{ matrix.i }}", path: res, retention-days: 30}
+
+  resumo:
+    needs: [gera, resolve]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: {pattern: "bsoma-*", path: res, merge-multiple: true}
+      - run: |
+          python3 - <<'EOF'
+          import json, glob
+          r = {}
+          for f in glob.glob("res/shard_*.jsonl"):
+              for l in open(f):
+                  c, v = json.loads(l); r[c] = v
+          inf = sorted(c for c, v in r.items() if v is False)
+          to = sorted(c for c, v in r.items() if v is None)
+          print(json.dumps({"testadas": len(r), "infactiveis": inf, "inconclusivas": len(to), "factiveis": sum(v is True for v in r.values())}))
+          json.dump({"resultados": {str(c): v for c, v in r.items()}, "infactiveis": inf, "inconclusivas": to}, open("resumo_bsoma.json", "w"))
+          EOF
+      - uses: actions/upload-artifact@v4
+        with: {name: resumo_bsoma, path: resumo_bsoma.json, retention-days: 90}
