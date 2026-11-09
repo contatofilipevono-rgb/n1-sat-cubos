@@ -71,6 +71,40 @@ Seja U_Y numa das órbitas 1020 ou 2040, e seja W' = U_Y ∩ W o único encontro
 
 Número de W com s_W = 0 nas testemunhas: sempre 0, 1, 3 ou 5.
 
+## Cobertura sem I6 e decomposição de N1 (09/11, tarde)
+
+Cada U impõe 7 condições lineares ao C₃ de 48 variáveis; seja K_U o subespaço que elas definem.
+
+**Pergunta de cobertura:** os K_U cobrem F₂⁴⁸?
+
+| Classe | Resultado | Detalhe |
+|---|---|---|
+| F₄+F₄ | não | C₃ achado em 1,2 s |
+| F₄² | não | 34 s |
+| Q4a | não | 327 s |
+| Q4c | não | 151 s |
+
+Todos os C₃ achados foram conferidos.
+
+Mas o conjunto N de C₃ sem isotrópico é **raríssimo**.
+- Em amostra aleatória: 0 de 300 em Q4a, Q4b, Q4c e F₄²; 2 de 300 em F₄+F₄.
+- A média de isotrópicos por C₃ aleatório é cerca de |{U}|/2⁷, como esperado.
+
+**Decomposição.** N1 para a classe ⇔ nenhum C₃ ∈ N se estende a uma solução de I6.
+
+**Teste com o C₃ de N achado em Q4a:** com C₃ fixo, I6 dá UNSAT em 0,0 s.
+- Controle positivo: os C₃ de testemunhas conhecidas estendem (SAT em 80–430 s, I6 conferido).
+
+**Relaxação linear de I6** (`linear_c3.py`): cada produto vira uma coluna livre, e eliminam-se todas as colunas exceto as variáveis simples de C₃.
+- Em Q4a, I6 implica **8 restrições lineares afins sobre C₃**.
+- O C₃ de N viola 5 delas.
+- A cobertura restrita a esse subespaço afim de dimensão 40 ainda falha: SAT em 381 s, conferido.
+
+**CEGAR sobre C₃** (`cegar_c3.py`, rodando no PC):
+- O laço externo procura C₃ ∈ N ∩ (restrições lineares) ∩ (cláusulas aprendidas).
+- O interno testa a extensão a I6 com C₃ fixo; se não estende, o core minimizado vira uma cláusula.
+- Se o externo ficar UNSAT, N1 vale na classe, condicionado a certificar cada cláusula aprendida por DRAT. Cada uma é uma instância pequena (I6 com parte de C₃ fixa).
+
 ## Consequências e perguntas
 
 1. **I6 não força s_W = 0 para nenhum W.** As testemunhas da órbita 255 têm s_W ≠ 0 nos 17 W. Assim, um argumento para N1 em Q4 precisa usar as órbitas 1020/2040 quando s não tem zeros.
