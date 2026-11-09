@@ -1,5 +1,18 @@
 # Estado das buscas, para retomar (atualizado em 09/11/2026, ~10:20 UTC)
 
+## ⚠ Snapshot de 09/11, 15:10 UTC: TESTEMUNHA SEM ISOTRÓPICO EM F4+F4
+
+- GitHub run 42547926882 (F4+F4, órbitas 15+960): o cubo 52 deu SAT. A testemunha tem **I6 e zero U isotrópicos em todas as órbitas**.
+- Confirmado por força bruta independente sobre os 788.035 subespaços de codimensão 3 de F₂⁹: nenhum tem queda de grau. O controle positivo passa.
+- **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
+- Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
+
+**Outros resultados deste snapshot:**
+- Q4c órbita 2040 terminou com 9 SAT de 64 (todos com isotrópicos [15, 0, 0] ou [15, 8, 0]).
+- Conta 2, Q4b todas (k=8): 44 cubos, todos INDECISO.
+- **O Kaggle caiu** (sessão "off", provavelmente pelo limite de 12 h). Não houve "Save Version", então a saída se perdeu.
+- Débora: 13,25 h, sem cubo concluído.
+
 **Estrutura nova (09/11, tarde; detalhes em `resultados/estrutura/Q4_ESPALHAMENTO_09NOV.md`):**
 - Q4: a órbita 255 é formada pelas estrelas de um espalhamento de 17 subespaços W (dim 4). Isotropia exige C3|W = 0 (na estrela) ou C3|W' = 0 (W' = U∩W, órbitas 1020/2040).
 - A parte linear de I6 sobre C3 é exatamente **C3 ∧ T = 0** (8 condições), nas 5 classes.
@@ -86,7 +99,8 @@ Todas as soluções SAT abaixo têm I6 conferido; a última coluna diz em quais 
 | Q4a | 2040 | SAT em 17 de 64 cubos (GitHub run 42521666326; 47 INDECISO; os 17 reconferidos no PC) | quase todos **[15, 0, 0]** ou [19, 0, 0]; alguns [15, 8, 0]; posto de C3 = 8 |
 | Q4c | 1020 | SAT (Colab, cubo 0 de 64, 23439 s; reconferido no PC) | **[19, 0, 0]**; reta comum a todos os 19 |
 | Q4b | 2040 | SAT em 14 de 64 cubos (GitHub run 42521672988; 50 INDECISO; reconferidos no PC em 09/11) | 12 × **[15, 0, 0]**, 2 × [15, 8, 0]; I7 não; posto de C3 = 8 |
-| Q4c | 2040 | SAT em 7 cubos (GitHub run 42521679875, parcial; reconferidos no PC) | todos **[15, 0, 0]**; I7 não; posto de C3 = 8 |
+| Q4c | 2040 | SAT em 9 de 64 cubos (GitHub run 42521679875, concluída; reconferidos no PC) | 8 × **[15, 0, 0]**, 1 × [15, 8, 0]; um com I7 |
+| **F4+F4** | **15+960** | **SAT (GitHub run 42547926882, cubo 52; reconferido no PC e por força bruta independente)** | **[0, 0, 0, 0]: nenhum isotrópico. I6 sim, I7 não** |
 
 **Leitura nova para Q4 (09/11, manhã).** Há testemunhas com I6 que escapam ao mesmo tempo das órbitas 1020 e 2040:
 - Q4a: 13 dos 17 cubos têm isotrópicos só na órbita 255;

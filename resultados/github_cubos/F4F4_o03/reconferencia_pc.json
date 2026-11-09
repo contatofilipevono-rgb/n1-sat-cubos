@@ -1,0 +1,27 @@
+[
+ {
+  "nome": "F4+F4_o0_gh_cubo52",
+  "classe": "F4+F4",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 13,
+  "C3_posto": 8,
+  "x*quadraticos": 22,
+  "cubicos_sem_x": 15,
+  "grau<=2": 22,
+  "isotropicos_por_orbita": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   960
+  ],
+  "dim_intersecao_comum_isotropicos": null,
+  "cubo": 52
+ }
+]

@@ -1,5 +1,28 @@
 [
  {
+  "nome": "Q4c_o2_gh_cubo19",
+  "classe": "Q4c",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 13,
+  "C3_posto": 8,
+  "x*quadraticos": 7,
+  "cubicos_sem_x": 20,
+  "grau<=2": 18,
+  "isotropicos_por_orbita": [
+   15,
+   8,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 2,
+  "cubo": 19
+ },
+ {
   "nome": "Q4c_o2_gh_cubo30",
   "classe": "Q4c",
   "I6": true,
@@ -21,6 +44,29 @@
   ],
   "dim_intersecao_comum_isotropicos": 4,
   "cubo": 30
+ },
+ {
+  "nome": "Q4c_o2_gh_cubo48",
+  "classe": "Q4c",
+  "I6": true,
+  "I7": true,
+  "C3_monomios": 9,
+  "C3_posto": 8,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 16,
+  "grau<=2": 15,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 48
  },
  {
   "nome": "Q4c_o2_gh_cubo7",

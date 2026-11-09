@@ -1,0 +1,545 @@
+{
+ "resumo": {
+  "classe": "F4+F4",
+  "orbitas": [
+   0,
+   3
+  ],
+  "S": 975,
+  "cubos": 64,
+  "UNSAT_verificados": 0,
+  "SAT": [
+   52
+  ],
+  "indecisos": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63
+  ],
+  "conclusao": "SAT encontrado"
+ },
+ "cubos": {
+  "1": {
+   "cubo": 1,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "58": {
+   "cubo": 58,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "15": {
+   "cubo": 15,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "32": {
+   "cubo": 32,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "3": {
+   "cubo": 3,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "46": {
+   "cubo": 46,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "43": {
+   "cubo": 43,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "6": {
+   "cubo": 6,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "59": {
+   "cubo": 59,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "19": {
+   "cubo": 19,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "34": {
+   "cubo": 34,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "50": {
+   "cubo": 50,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "23": {
+   "cubo": 23,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "29": {
+   "cubo": 29,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "9": {
+   "cubo": 9,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "16": {
+   "cubo": 16,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "37": {
+   "cubo": 37,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "56": {
+   "cubo": 56,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "61": {
+   "cubo": 61,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "12": {
+   "cubo": 12,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "55": {
+   "cubo": 55,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "42": {
+   "cubo": 42,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "39": {
+   "cubo": 39,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "28": {
+   "cubo": 28,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "22": {
+   "cubo": 22,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "26": {
+   "cubo": 26,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "38": {
+   "cubo": 38,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "14": {
+   "cubo": 14,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "21": {
+   "cubo": 21,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "45": {
+   "cubo": 45,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "0": {
+   "cubo": 0,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "7": {
+   "cubo": 7,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "41": {
+   "cubo": 41,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "48": {
+   "cubo": 48,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "24": {
+   "cubo": 24,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "40": {
+   "cubo": 40,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "10": {
+   "cubo": 10,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "63": {
+   "cubo": 63,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "8": {
+   "cubo": 8,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "17": {
+   "cubo": 17,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "62": {
+   "cubo": 62,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "33": {
+   "cubo": 33,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "53": {
+   "cubo": 53,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "13": {
+   "cubo": 13,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "36": {
+   "cubo": 36,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "54": {
+   "cubo": 54,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "51": {
+   "cubo": 51,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "2": {
+   "cubo": 2,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "5": {
+   "cubo": 5,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "27": {
+   "cubo": 27,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "11": {
+   "cubo": 11,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "30": {
+   "cubo": 30,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "4": {
+   "cubo": 4,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "47": {
+   "cubo": 47,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "49": {
+   "cubo": 49,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "18": {
+   "cubo": 18,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "35": {
+   "cubo": 35,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "25": {
+   "cubo": 25,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "52": {
+   "cubo": 52,
+   "resultado": "SAT",
+   "tempo_cadical_s": 11522,
+   "conferencia": {
+    "I6_conferido": true,
+    "isotropicos_em_S": 0,
+    "isotropicos_total": 0,
+    "anf_extra": [
+     7,
+     10,
+     11,
+     12,
+     13,
+     14,
+     17,
+     18,
+     20,
+     21,
+     25,
+     28,
+     38,
+     40,
+     41,
+     48,
+     52,
+     65,
+     66,
+     68,
+     72,
+     74,
+     80,
+     96,
+     130,
+     132,
+     136,
+     144,
+     145,
+     146,
+     160,
+     161,
+     193,
+     257,
+     259,
+     260,
+     261,
+     266,
+     268,
+     273,
+     275,
+     276,
+     277,
+     280,
+     281,
+     282,
+     289,
+     292,
+     296,
+     304,
+     308,
+     320,
+     321,
+     322,
+     323,
+     324,
+     325,
+     326,
+     328,
+     329,
+     336,
+     352,
+     384,
+     385,
+     386,
+     387,
+     388,
+     390,
+     392,
+     396,
+     416,
+     450
+    ]
+   }
+  },
+  "57": {
+   "cubo": 57,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "31": {
+   "cubo": 31,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "60": {
+   "cubo": 60,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "44": {
+   "cubo": 44,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  },
+  "20": {
+   "cubo": 20,
+   "resultado": "INDECISO",
+   "tempo_cadical_s": 15000,
+   "rc": 0
+  }
+ }
+}
