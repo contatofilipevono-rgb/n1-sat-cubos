@@ -86,6 +86,28 @@ Nenhum caso ficou sem queda. Os aleatórios costumam ter queda já com k = 1, e 
   2. ele tem queda em codim 5 de qualquer forma.
 - As próximas buscas de trios devem impor φᵢ ∧ T = 0 **e** φᵢ ∧ φⱼ = 0.
 
+## Prova do GPT (09/11, ~21 UTC): sem termos mistos em x, o caso de 3 lineares é trivial
+
+**Enunciado.** Toda D = T + Σ xᵢφᵢ + R, com deg R ≤ 3, tem queda de grau em codim 5. Não é preciso nenhuma condição de cunha.
+
+**Prova.**
+1. Tome K = ⟨e_{y0}, e_{y1}, c⟩, com dim K = 3. Então T|_K tem grau ≤ 3.
+2. O coeficiente cúbico de φᵢ|_K é a forma trilinear φᵢ(e_{y0}, e_{y1}, c), linear em c.
+3. Com c ∈ ⟨e_{y2}, …, e_{y7}⟩, são 3 equações em 6 incógnitas, logo existe c ≠ 0 que zera os três coeficientes.
+4. Em W = K ⊕ ⟨x₁, x₂, x₃⟩, cada xᵢφᵢ|_K tem grau ≤ 1 + 2 = 3. Como dim W = 6, a codimensão é 5.
+
+**Conferências.**
+- Verifiquei o argumento à mão.
+- O GPT conferiu os 64 pontos de W nos 5 trios, com c = e_{y3} + e_{y4}.
+- Isso bate com a minha busca: em k = 3, ela acha queda logo no primeiro U_Y.
+
+**Consequência.** No modelo T + Σxᵢφᵢ, a pergunta das sete restrições era fraca demais: o caso é trivial em codim 5. **O caso que importa é o das quárticas com termos mistos xᵢxⱼψᵢⱼ** (ψ quadrática) e xᵢxⱼxₖℓ, em que essa construção não garante a queda. O GPT segue nesse caso.
+
+**Encerradas em 09/11, ~21 UTC, por perda de relevância:**
+- VM: parada;
+- GitHub: F4+F4 com I7, completo e 960, cancelado;
+- Colabs tab-4 (15+960 com I7), seed (sete restrições) e tab-7 (lote): desligados.
+
 ## Codificação por Möbius (comparação pedida)
 
 `lift_mobius.py`: tabela-verdade + borboleta de Möbius mod 8 (subtratores de 3 bits).

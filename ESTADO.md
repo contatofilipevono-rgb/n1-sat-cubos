@@ -7,6 +7,8 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**09/11, ~21 UTC: tudo parado.** Pela prova do GPT, o caso de 3 lineares sem termos mistos é trivial (queda em codim 5 via W = ⟨e0, e1, c⟩ ⊕ ⟨x1, x2, x3⟩). As buscas de N1 com I6 ∧ I7 e das sete restrições perderam relevância. VM parada, runs do GitHub canceladas, Colabs desligados. O caso aberto, com termos mistos xᵢxⱼ, segue com o GPT. Ver esultados/estrutura/SETE_RESTRICOES_09NOV.md.
+
 **09/11, 20:30 UTC: alocação.**
 - Sete restrições, F4+F4 d=3: Colab tab-7, em 8 cubos.
 - Sete restrições nas outras classes (F4^2, Q4a, Q4b, Q4c), d=2 e depois d=3: Colab seed.
