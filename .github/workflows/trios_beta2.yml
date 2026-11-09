@@ -1,0 +1,45 @@
+name: trios-beta2
+# Busca DIRIGIDA de trios com beta=0 (caso misto do Lema L, F4+F4): para cada par (a,b) com beta=0 em N∩S,
+# varre exaustivamente C_ab = {c : beta(a,c)=beta(b,c)=0} (dim ~20). Ver resultados/estrutura/sete_outra/sete_beta2.py.
+on:
+  workflow_dispatch:
+    inputs:
+      s: {description: "dimensao de S para gerar pares", required: true, default: "22"}
+      seed0: {description: "primeira semente", required: true, default: "101"}
+      n: {description: "numero de sementes (jobs)", required: true, default: "16"}
+      maxp: {description: "maximo de pares por job", required: true, default: "1300"}
+
+jobs:
+  prepara:
+    runs-on: ubuntu-latest
+    outputs:
+      seeds: ${{ steps.m.outputs.seeds }}
+    steps:
+      - id: m
+        run: echo "seeds=$(python3 -c "a=int('${{ inputs.seed0 }}'); n=int('${{ inputs.n }}'); print(list(range(a,a+n)))")" >> "$GITHUB_OUTPUT"
+
+  busca:
+    needs: prepara
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        seed: ${{ fromJSON(needs.prepara.outputs.seeds) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q "numpy>=2.0"
+      - name: busca
+        working-directory: resultados/estrutura/sete_outra
+        run: timeout 20700 python -u sete_beta2.py ${{ inputs.s }} ${{ matrix.seed }} ${{ inputs.maxp }} 5 | tee log2_s${{ inputs.s }}_${{ matrix.seed }}.txt || true
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trios2-s${{ inputs.s }}-seed${{ matrix.seed }}
+          path: |
+            resultados/estrutura/sete_outra/trio_beta2_s${{ inputs.s }}_seed${{ matrix.seed }}.json
+            resultados/estrutura/sete_outra/log2_s${{ inputs.s }}_${{ matrix.seed }}.txt
+          retention-days: 30
