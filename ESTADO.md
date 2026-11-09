@@ -1,5 +1,12 @@
 # Estado das buscas, para retomar (atualizado em 09/11/2026, ~10:20 UTC)
 
+**Estrutura nova (09/11, tarde; detalhes em `resultados/estrutura/Q4_ESPALHAMENTO_09NOV.md`):**
+- Q4: a órbita 255 é formada pelas estrelas de um espalhamento de 17 subespaços W (dim 4). Isotropia exige C3|W = 0 (na estrela) ou C3|W' = 0 (W' = U∩W, órbitas 1020/2040).
+- A parte linear de I6 sobre C3 é exatamente **C3 ∧ T = 0** (8 condições), nas 5 classes.
+- Sem I6, os U isotrópicos **não** cobrem todos os C3 (Q4a, Q4c, F4^2, F4+F4), mas o conjunto N dos C3 sem isotrópico é raríssimo. **N1 ⇔ nenhum C3 ∈ N ∩ {C3∧T=0} se estende a I6.** Com C3 fixo, isso é um sistema quadrático em 112 incógnitas.
+- **Teste crítico em andamento:** um C3 ∈ N ∩ L de Q4a (`cobertura_restrita_Q4a.json`). Ele estende a I6? Roda em 16 cubos na VM (`/opt/c3fixo`, com 16 CaDiCaL de F4^2 pausados por SIGSTOP, retomados no fim) e inteiro no PC. Um SAT aqui seria **contraexemplo a N1 em Q4a**.
+- Colab da Valéria (75 h livres): células prontas em `plataformas/celula_valeria_Q4a_o01.txt` (Q4a, órbitas 255+1020). Falta montar o Drive e colar; o Chrome não estava conectado.
+
 **Snapshot de 09/11, 10:20 UTC:**
 - GitHub, Q4b órbita 2040 (run 42521672988, concluída): **14 SAT** de 64, 50 INDECISO.
 - GitHub, Q4c órbita 2040 (run 42521679875, parcial): **7 SAT** de 48 concluídos.
