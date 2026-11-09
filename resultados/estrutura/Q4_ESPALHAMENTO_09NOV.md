@@ -148,6 +148,22 @@ Em Q4, T∧· : Λ²→Λ⁶ tem posto 26 de 28. Assim, R₂ e R₂' ficam deter
 - Procurar relações polinomiais de grau ≤ 2 em C₃ que se anulem em E (`relacoes_E.py`).
 - Se N ∩ L ∩ V(relações) for vazio (SAT de 48 variáveis), N1 em Q4a fica reduzido a provar que essas relações seguem de I6.
 
+**Resultado da tentativa de descrever E (09/11, ~15 h UTC): negativo/inconclusivo.**
+- Amostras: 952 soluções de I6 (C₃ distintos: cerca de 750), obtidas com CMS e suposições aleatórias.
+- O span afim das amostras é todo L (dimensão 40), então E não tem relações lineares além de C₃∧T = 0.
+- Grau 2 (821 monômios nas coordenadas livres de L):
+  - o posto ficou abaixo do número de amostras, mas foi efeito do agrupamento das soluções do SAT;
+  - das 274 relações candidatas, 240 falharam em amostras de teste;
+  - das 34 restantes, só 23 valem nas 952 amostras, e o número continua caindo.
+  - Não há evidência de que E seja cortado por quádricas.
+- Com as 34 relações, N ∩ L ∩ V tem solução (SAT em 478 s).
+- O teste de um C₃ isolado de N ∩ L foi encerrado sem resposta: ~1 h no CMS e 3 h em 16 cubos na VM.
+
+**Leitura.**
+- O "ponto duro" de N1 está na interação não linear de I6 entre C₃ e R.
+- A redução útil obtida é estrutural: N1 ⇔ E ∩ N = ∅, com L = {C₃∧T = 0}, N descrito pelo espalhamento (Lemas 1–3) e E = projeção de I6.
+- Um ataque humano provavelmente precisa entender E via a forma "paridade de uniões de pares", isto é, a estrutura de Λ* com T.
+
 **CEGAR sobre C₃** (`cegar_c3.py`, rodando no PC):
 - O laço externo procura C₃ ∈ N ∩ (restrições lineares) ∩ (cláusulas aprendidas).
 - O interno testa a extensão a I6 com C₃ fixo; se não estende, o core minimizado vira uma cláusula.
