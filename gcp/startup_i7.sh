@@ -14,7 +14,7 @@ for par in "F4^2:automorfismos_F42.json:0,1,2,3" "Q4a:automorfismos_Q4a.json:0,1
   IFS=: read -r CL AU OR <<< "$par"
   D=$B/$(echo "$CL" | tr -d '^+')
   ( mkdir -p $D && cd $D
-    [ -f cubo.py ] || cp -r $W/repo/. $D/
+    [ -f cubo.py ] || cp $W/repo/*.py $W/repo/*.sh $W/repo/automorfismos_*.json $D/
     cp $W/ferr/cadical ./cadical; cp $W/ferr/drat-trim ./drat-trim
     [ -f inst/cubos.json ] || N1_I7=1 python cubo.py gera "$CL" "$AU" "$OR" 6 inst > gera.log 2>&1
     mkdir -p res
