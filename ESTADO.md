@@ -6,6 +6,10 @@
 - Os Colabs com classes completas e o Kaggle ainda não têm cubo concluído.
 - A segunda conta do GitHub roda com 5 jobs.
 
+**VM spot interrompida pelo Google às 05:43 UTC; religada às ~06:50 UTC.**
+- O F4^2 completo retomou com 32 CaDiCaL. Os cubos recomeçam do zero, porque nenhum havia terminado.
+- **O H16 não foi relançado.** Em 6,6 h dividindo a máquina com o N1, ele não completou nenhuma iteração do CEGAR. Antes de gastar mais máquina com ele, é preciso uma codificação mais leve.
+
 Leia isto primeiro se você é uma pessoa ou IA continuando o trabalho.
 
 **Regras do projeto:**
