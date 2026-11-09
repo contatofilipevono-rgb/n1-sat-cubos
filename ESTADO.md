@@ -9,7 +9,8 @@
 
 **09/11, ~23:30 UTC: alocação — caso misto do Lema L (F4+F4).**
 - Pergunta: existem trios φ₁, φ₂, φ₃ em L/G com β = 0 dois a dois e as 7 combinações sem isotrópico? Se existirem, o próximo passo é o teste de extensão a I6 ∧ I7 em 11 variáveis (`ext_cms.py`).
-- GitHub (workflow `trios-beta`, run 42720532847): 16 sementes com s = 24.
+- GitHub `trios-beta` (run 42720532847, concluída): 16 sementes com s = 24 dão cerca de 15 mil pares com β = 0 cada, mas **0 trios**. Era esperado, porque β = 0 nos 3 pares impõe cerca de 30 condições e trios aleatórios num subespaço quase nunca as satisfazem. Isso **não** é evidência de inexistência.
+- GitHub `trios-beta2` (run 42721088027): **busca dirigida**. Para cada par (a, b) com β = 0, varre exaustivamente C_ab = {c : β(a,c) = β(b,c) = 0} (dim ≈ 20), filtrando c, c+a, c+b e c+a+b em N. São 16 sementes (s = 22), cerca de 950 pares cada, ~12 s por par.
 - Colab tab-4: `sete_beta.py` com s = 22, 23 e 24 (6 processos).
 - Colab seed: busca SAT (`beta_busca.py`, d = 3), continuação.
 - A auditoria do limiar 161/272 é feita pelo Fable 5.2 em outra sessão.
