@@ -9,6 +9,7 @@ on:
       por_job: {description: "cubos por maquina (4 nucleos)", required: true, default: "4"}
       tempo_cadical: {description: "segundos por cubo", required: true, default: "15000"}
       tempo_drat: {description: "segundos de verificacao", required: true, default: "4500"}
+      i7: {description: "1 = impor tambem I7 (c_S = 0 mod 8, |S|>=7)", required: false, default: "0"}
 
 jobs:
   gera:
@@ -21,6 +22,7 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -q python-sat pycryptosat numpy
       - run: python cubo.py gera "${{ inputs.classe }}" "${{ inputs.auto }}" "${{ inputs.orbitas }}" "${{ inputs.k }}" inst
+        env: {N1_I7: "${{ inputs.i7 }}"}
       - id: m
         run: echo "lotes=$(python -c "n=2**int('${{ inputs.k }}'); p=int('${{ inputs.por_job }}'); print(list(range(0,n,p)))")" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4

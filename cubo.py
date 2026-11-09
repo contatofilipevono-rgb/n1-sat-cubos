@@ -30,6 +30,10 @@ def gera(classe, auto, orb_k, K, out):
     dados = prepara_U(Tq, ny, c3_vars, iso)
     for k in S:
         adiciona_U(cnf, *dados[k])
+    com_i7 = os.environ.get("N1_I7", "0") == "1"
+    if com_i7:
+        from i7 import adiciona_I7
+        print("I7:", adiciona_I7(cnf, fixo, incog, ny + 1))
     nv = cnf.prox - 1
     with open(os.path.join(out, "base.cnf"), "w") as f:
         f.write(f"p cnf {nv} {len(cnf.cl)}\n")
@@ -38,7 +42,7 @@ def gera(classe, auto, orb_k, K, out):
     vs = [v for _, v in c3_vars][:K]
     cubos = [[v if (i >> j) & 1 else -v for j, v in enumerate(vs)] for i in range(1 << K)]
     json.dump({"classe": classe, "orbitas": ks, "tamanhos": [len(o) for o in orbs], "S": len(S), "nv": nv,
-               "ncl": len(cnf.cl), "K": K, "cubos": cubos}, open(os.path.join(out, "cubos.json"), "w"))
+               "ncl": len(cnf.cl), "K": K, "I7": com_i7, "cubos": cubos}, open(os.path.join(out, "cubos.json"), "w"))
     pickle.dump({"fixo": fixo, "incog": incog, "ny": ny, "Tq": Tq, "c3_vars": c3_vars, "S": S,
                  "iso": iso, "dados": dados}, open(os.path.join(out, "meta.pkl"), "wb"))
     print(f"{classe} orbitas {ks} |S|={len(S)}: {nv} var, {len(cnf.cl)} clausulas, {1 << K} cubos "
@@ -69,7 +73,7 @@ def confere_sat(out, modelo):
     monos = [m["incog"][k] for k in range(len(m["incog"])) if val[k + 1]]
     i6, i7 = confere(m["fixo"], monos, m["ny"] + 1)
     viol = [k for k in range(len(m["iso"])) if isotropico_em(val, *m["dados"][k])]
-    r = {"I6_conferido": bool(i6), "isotropicos_em_S": len(viol_S), "isotropicos_total": len(viol),
+    r = {"I6_conferido": bool(i6), "I7_conferido": bool(i7), "isotropicos_em_S": len(viol_S), "isotropicos_total": len(viol),
          "anf_extra": sorted(monos)}
     print(json.dumps(r))
     return r
