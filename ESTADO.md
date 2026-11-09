@@ -7,6 +7,15 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**09/11, ~16:30 UTC: reorganização.**
+- **Desligadas as buscas de UNSAT por força bruta**, que davam só INDECISO:
+  - VM GCP `n1-cubos` **parada** (não apagada);
+  - conta 2 cancelada;
+  - Colabs da Débora (Q4b) e de Q4c completo encerrados.
+- Os resultados delas estão em `resultados/`.
+- **Onde N1 entra na cadeia:** o Lema L tem hipótese I6 ∧ I7, e a redução de 3 lineares só precisa de N1 com I6 ∧ I7. A testemunha F4+F4 mata só a versão com I6. Q≡1 e p=17 seguem abertos. Ver `resultados/contraexemplo_N1_F4F4/LEIA.md`.
+- **Únicas rodadas ativas:** F4+F4 com I6 ∧ I7, completo no GitHub (run 42649448135) e 15+960 no Colab principal.
+
 **Snapshot de 09/11, 16:15 UTC:** sem resultado novo.
 - Conta 2 (Q4b, todas as órbitas, k=8): 72 cubos, todos INDECISO.
 - I6 ∧ I7 no GitHub: 4 jobs rodando, 12 na fila. I6 ∧ I7 no Colab: 8 CaDiCaL ativos.
