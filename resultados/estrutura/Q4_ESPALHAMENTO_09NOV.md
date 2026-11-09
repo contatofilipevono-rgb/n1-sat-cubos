@@ -137,6 +137,17 @@ Em Q4, T∧· : Λ²→Λ⁶ tem posto 26 de 28. Assim, R₂ e R₂' ficam deter
 
 **Solver.** O CryptoMiniSat, com XOR nativo, resolve os controles positivos em 6–45 s, contra 80–430 s do CaDiCaL (`interno_cms.py`).
 
+**Por que testar C₃ um a um não basta.** Com C₃ fixo há 112 incógnitas e 120 equações independentes. Um C₃ genérico em L, portanto, não se estende: espera-se cerca de 2⁻⁸ soluções.
+- O conjunto E dos C₃ extensíveis tem por volta de 2³² elementos.
+- N ∩ L é pequeno, mas grande o bastante para que, por acaso, E ∩ N fosse não vazio.
+- Se N1 vale, é por uma razão estrutural. Por isso o teste de um C₃ isolado de N ∩ L, que não terminou em ~1 h no CMS nem em 2 h em 16 cubos na VM, diz pouco.
+- Foram gerados 6 elementos distintos de N ∩ L (`NL_Q4a.jsonl`).
+
+**Próximo passo: descrever E.**
+- Amostrar soluções de I6 com CMS (`amostra_E.py`, 11 processos no PC).
+- Procurar relações polinomiais de grau ≤ 2 em C₃ que se anulem em E (`relacoes_E.py`).
+- Se N ∩ L ∩ V(relações) for vazio (SAT de 48 variáveis), N1 em Q4a fica reduzido a provar que essas relações seguem de I6.
+
 **CEGAR sobre C₃** (`cegar_c3.py`, rodando no PC):
 - O laço externo procura C₃ ∈ N ∩ (restrições lineares) ∩ (cláusulas aprendidas).
 - O interno testa a extensão a I6 com C₃ fixo; se não estende, o core minimizado vira uma cláusula.
