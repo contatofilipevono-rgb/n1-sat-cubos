@@ -1,4 +1,10 @@
-# Estado das buscas, para retomar (atualizado em 09/11/2026, ~02:00 UTC)
+# Estado das buscas, para retomar (atualizado em 09/11/2026, ~04:15 UTC)
+
+**Snapshot de 09/11, 04:15 UTC:**
+- Todas as plataformas no ar.
+- Na VM, F4^2 completa ainda não fechou nenhum cubo depois de 6,6 h, e o H16 ainda não terminou nenhuma iteração.
+- Os Colabs com classes completas e o Kaggle ainda não têm cubo concluído.
+- A segunda conta do GitHub roda com 5 jobs.
 
 Leia isto primeiro se você é uma pessoa ou IA continuando o trabalho.
 
@@ -51,6 +57,7 @@ Todas as soluções SAT abaixo têm I6 conferido; a última coluna diz em quais 
 | F4+F4 | 960 | SAT (Colab) | [15, 20, 0, 0] |
 | F4+F4 | 15+60+240 | SAT (GitHub, cubos 28 e 62) | [0, 0, 0, 12] e [0, 0, 0, 21] |
 | Q4a, Q4b, Q4c | 255 | SAT | só nas órbitas de 1020 e 2040 |
+| Q4a | 1020 | SAT (Colab, cubo 1 de 64, 15641 s; reconferido no PC em 09/11) | [7, 0, 14]; I6 sim, I7 não, posto de C3 = 8 |
 
 **Leitura:**
 - Nenhuma órbita isolada força isotropia, nem as uniões testadas.
