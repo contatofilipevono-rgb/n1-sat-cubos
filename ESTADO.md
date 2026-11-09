@@ -65,7 +65,9 @@ Todas as soluções SAT abaixo têm I6 conferido; a última coluna diz em quais 
 | F4^2, todas as órbitas | VM GCP `n1-cubos` (32 núcleos), `/opt/n1/repo/res` | `gcloud compute ssh n1-cubos --zone us-central1-a` |
 | H16: filtros 2-ádicos, CEGAR | mesma VM, `/opt/h16/saida.txt` | `resultados/h16/` |
 | F4+F4, todas as órbitas | Colab (Drive: `n1_colab_08nov/F4F4_todas`); também PC local, instância inteira | `RESUMO.json` no Drive |
-| F4+F4, 15+960 | Kaggle, `/kaggle/working/n1` | "Save Version" |
+| F4+F4, 15+960 | GitHub Actions (run 42547926882) | `gh run view` |
+
+O Kaggle ficou sem uso por enquanto: a conta precisa de verificação por telefone para ter internet na sessão.
 | Q4a, todas as órbitas; Q4b/Q4c 2040; F4^2 15+2880 | GitHub Actions, workflow `cubos` | `gh run list` |
 | Q4b, todas as órbitas | Colab de conta parceira (Drive dela: `n1_inst_09nov/Q4b_todas`); encerra sozinho | — |
 | Q4c, todas as órbitas | Colab (Drive: `n1_inst_09nov/Q4c_todas`) | — |
