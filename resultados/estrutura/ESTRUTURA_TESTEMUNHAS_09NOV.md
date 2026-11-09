@@ -47,6 +47,29 @@ Os tamanhos das órbitas são: F₄² 15/60/240/2880; F₄+F₄ 15/60/240/960; Q
    - N1 equivale a dizer que esse mínimo sobre todas as soluções de I6 é ≥ 1.
    - A classe completa (todas as órbitas) roda em cubos no Colab 2 e no PC; F₄+F₄ 15+960 roda no Kaggle.
 
+## Correção sobre o posto
+
+O posto 8, o máximo possível em Y = F₂⁸, ocorre em quatro testemunhas com I6: F42_o3, cubo 62, Q4a_o0 e Q4b_o0. Portanto **I6 não limita o posto de C₃**, e o passo (a) abaixo fica respondido negativamente. A correlação entre posto alto e poucos isotrópicos continua valendo, mas só como tendência.
+
+## Estrutura dos isotrópicos nas testemunhas mínimas de F₄+F₄
+
+Script: `isotropicos_minimos.py`.
+
+**Cubo 28 (12 isotrópicos).**
+- Interseções duas a duas: dimensão 2 (46 pares), 3 (12 pares), 4 (8 pares).
+- A soma de todos os U_Y é Y inteiro.
+- O vetor e₇ pertence a **10 dos 12** U_Y; e₆ e e₆+e₇ pertencem a 7 cada.
+
+**Cubo 62 (21 isotrópicos).**
+- O plano ⟨e₂, e₃⟩ está contido em **15 dos 21** U_Y.
+- Há 108 pares com interseção de dimensão 4.
+
+**Leitura.** Nas testemunhas que quase escapam, os U_Y isotrópicos que sobram não estão espalhados. Eles se concentram num "feixe" que passa por uma reta ou por um plano especial de Y.
+
+Isso sugere uma forma possível para um argumento humano: identificar, para cada T crítica, a família de retas e planos especiais e provar que I6 obriga C₃ a ser compatível com pelo menos um U_Y do feixe correspondente.
+
+**Advertência.** A base usada aqui é a do pencil, e T não é diagonal em blocos nessa base. Por isso as contagens (dim U∩Y₁, dim U∩Y₂) com Y₁ = ⟨e₀..e₃⟩ não têm leitura direta. É preciso recalcular na base em que T = F₄ ⊕ F₄.
+
 ## Próximos passos de extração
 
 - (a) Medir o posto máximo de C₃ compatível com I6 por SAT, impondo "posto ≥ r" e testando cada r.
