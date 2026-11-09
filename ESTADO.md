@@ -7,6 +7,8 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**Snapshot de 09/11, 20:15 UTC:** F4+F4 completo com I7 no GitHub: primeiros 16 cubos, todos INDECISO (15000 s). F4+F4 960 com I7, VM (4 classes) e Colab: sem cubo concluído. Rota das 7 restrições: d=2 SAT, d=3 rodando no PC.
+
 **09/11, 18:40 UTC: VM religada para I6 ∧ I7.**
 - VM: F4^2, Q4a, Q4b e Q4c, todas as órbitas, 64 cubos por classe, 8 núcleos cada (`gcp/startup_i7.sh`, resultados em `/opt/i7/<classe>/res`).
 - A VM **desliga sozinha em 48 h** (prazo em `/opt/i7/PRAZO`).
