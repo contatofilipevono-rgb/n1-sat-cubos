@@ -40,6 +40,32 @@ Outra sessão achou um trio explícito: φ₁, φ₂, φ₃ com as 7 combinaçõ
 
 A rodada d=3 de F4+F4 no Colab foi encerrada por redundância. As classes F4², Q4a, Q4b e Q4c seguem no Colab seed.
 
+## Achado (09/11, ~20:45 UTC): o trio TEM queda de grau em codim 5, fora das 7 retas
+
+**Montagem.** Q = T + x₁φ₁ + x₂φ₂ + x₃φ₃ em F₂¹¹, com o trio de F4+F4 (`queda_onze.py`, `confere_queda_k2.py`). Seja k a dimensão da projeção de U em X = ⟨x₁, x₂, x₃⟩.
+
+| k | Subespaços de codim 5 com queda |
+|---|---|
+| 1 (as 7 retas) | **0**, como esperado |
+| 2 (U_Y de dim 4 + 2 direções) | **10.844** |
+
+**Conferência independente de um deles,** por substituição simbólica, sem tabela-verdade:
+- dim U = 6, isto é, codim 5;
+- projeção em X = ⟨x₁+x₂, x₃⟩;
+- **deg(Q|U) = 3**.
+
+Base de U (11 bits; os bits 8..10 são x₁..x₃): 00010110001, 00000000010, 00000010100, 00000001000, 10000100001, 01101100101.
+
+**Controle negativo.** Perturbar φ₁ por uma cúbica aleatória destrói a queda nesse U em 2 de 3 casos.
+
+**Consequências.**
+- **O trio não é contraexemplo do Lema L.** A queda em codim ≤ 5 existe, só que fora das 7 restrições.
+- Conjectura nova, mais fraca e talvez verdadeira: *para φ₁, φ₂, φ₃ com φᵢ ∧ T = 0, Q sempre tem queda em codim 5 com projeção de dimensão 1 ou 2 em X.* Isso usaria só a parte linear de I6.
+- Teste em andamento no Colab tab-7 (`queda_lote.py`):
+  - todos os trios do arquivo;
+  - 20 trios aleatórios em L para F4+F4;
+  - 10 trios aleatórios para cada uma das outras 4 classes.
+
 ## Codificação por Möbius (comparação pedida)
 
 `lift_mobius.py`: tabela-verdade + borboleta de Möbius mod 8 (subtratores de 3 bits).
