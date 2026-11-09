@@ -7,6 +7,15 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**I6 ∧ I7 (lançado em 09/11, 16 h UTC):**
+- I7 (c_S ≡ 0 mod 8 para |S| ≥ 7) agora é codificado em CNF (`i7.py`): N₂ ≡ 2·N₃ (mod 4) em cada um dos 46 conjuntos S, com contador mod 4 dos pares e paridade das triplas.
+- Controles (`controle_i7.py`): aceita a testemunha com I7 (cubo 62) e rejeita as duas sem I7 (cubos 28 e 52).
+- Workflow: entrada `i7=1`.
+- Em andamento:
+  - **F4+F4 completo com I6 ∧ I7**: GitHub, run 42649448135 (64 cubos, 16 jobs);
+  - **F4+F4 15+960 com I6 ∧ I7**: Colab principal (tab-4, 8 núcleos, `/content/repo_i7`). Ele substitui o F4+F4 completo só com I6, que já foi respondido.
+- Um SAT em qualquer dessas rodadas seria contraexemplo também à versão liftável de N1.
+
 **Outros resultados deste snapshot:**
 - Q4c órbita 2040 terminou com 9 SAT de 64 (todos com isotrópicos [15, 0, 0] ou [15, 8, 0]).
 - Conta 2, Q4b todas (k=8): 44 cubos, todos INDECISO.
