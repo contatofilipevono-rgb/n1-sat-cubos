@@ -1,0 +1,113 @@
+{
+ "s": 22,
+ "seed": 1,
+ "N_S": 20849,
+ "planos": 116431,
+ "trios": [
+  {
+   "x40": [
+    466978405713,
+    1060806817758,
+    162268618865
+   ],
+   "phi": [
+    "y0y1y2 + y0y1y6 + y0y2y3 + y0y2y5 + y0y2y7 + y0y3y4 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y5 + y0y5y6 + y0y6y7 + y1y2y7 + y1y5y6 + y1y5y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y7 + y2y4y7 + y2y5y6 + y2y6y7 + y3y4y5 + y3y5y6 + y4y6y7",
+    "y0y1y3 + y0y1y4 + y0y1y5 + y0y1y6 + y0y2y3 + y0y2y4 + y0y2y5 + y0y2y6 + y0y2y7 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y6 + y0y4y7 + y1y2y6 + y1y4y5 + y1y5y6 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y6 + y2y3y7 + y2y4y6 + y2y4y7 + y2y5y7 + y2y6y7 + y3y4y5 + y3y5y6 + y3y6y7 + y4y5y6 + y4y5y7 + y4y6y7 + y5y6y7",
+    "y0y1y2 + y0y1y6 + y0y1y7 + y0y2y3 + y0y3y6 + y0y4y5 + y0y4y7 + y0y5y6 + y0y6y7 + y1y2y3 + y1y2y4 + y1y2y5 + y1y2y6 + y1y2y7 + y1y4y5 + y1y5y6 + y2y3y6 + y2y3y7 + y2y4y5 + y2y4y7 + y2y6y7 + y3y5y6 + y4y5y6 + y4y5y7 + y4y6y7"
+   ],
+   "isotropicos": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   }
+  },
+  {
+   "x40": [
+    466978405713,
+    662617688719,
+    162268618865
+   ],
+   "phi": [
+    "y0y1y2 + y0y1y6 + y0y2y3 + y0y2y5 + y0y2y7 + y0y3y4 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y5 + y0y5y6 + y0y6y7 + y1y2y7 + y1y5y6 + y1y5y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y7 + y2y4y7 + y2y5y6 + y2y6y7 + y3y4y5 + y3y5y6 + y4y6y7",
+    "y0y1y2 + y0y1y3 + y0y1y4 + y0y1y5 + y0y2y4 + y0y2y6 + y0y3y4 + y0y4y5 + y0y4y6 + y0y4y7 + y0y5y6 + y0y6y7 + y1y2y6 + y1y2y7 + y1y4y5 + y1y5y7 + y2y3y6 + y2y4y6 + y2y5y6 + y2y5y7 + y3y6y7 + y4y5y6 + y4y5y7 + y5y6y7",
+    "y0y1y2 + y0y1y6 + y0y1y7 + y0y2y3 + y0y3y6 + y0y4y5 + y0y4y7 + y0y5y6 + y0y6y7 + y1y2y3 + y1y2y4 + y1y2y5 + y1y2y6 + y1y2y7 + y1y4y5 + y1y5y6 + y2y3y6 + y2y3y7 + y2y4y5 + y2y4y7 + y2y6y7 + y3y5y6 + y4y5y6 + y4y5y7 + y4y6y7"
+   ],
+   "isotropicos": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   }
+  },
+  {
+   "x40": [
+    466978405713,
+    162268618865,
+    1060806817758
+   ],
+   "phi": [
+    "y0y1y2 + y0y1y6 + y0y2y3 + y0y2y5 + y0y2y7 + y0y3y4 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y5 + y0y5y6 + y0y6y7 + y1y2y7 + y1y5y6 + y1y5y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y7 + y2y4y7 + y2y5y6 + y2y6y7 + y3y4y5 + y3y5y6 + y4y6y7",
+    "y0y1y2 + y0y1y6 + y0y1y7 + y0y2y3 + y0y3y6 + y0y4y5 + y0y4y7 + y0y5y6 + y0y6y7 + y1y2y3 + y1y2y4 + y1y2y5 + y1y2y6 + y1y2y7 + y1y4y5 + y1y5y6 + y2y3y6 + y2y3y7 + y2y4y5 + y2y4y7 + y2y6y7 + y3y5y6 + y4y5y6 + y4y5y7 + y4y6y7",
+    "y0y1y3 + y0y1y4 + y0y1y5 + y0y1y6 + y0y2y3 + y0y2y4 + y0y2y5 + y0y2y6 + y0y2y7 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y6 + y0y4y7 + y1y2y6 + y1y4y5 + y1y5y6 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y6 + y2y3y7 + y2y4y6 + y2y4y7 + y2y5y7 + y2y6y7 + y3y4y5 + y3y5y6 + y3y6y7 + y4y5y6 + y4y5y7 + y4y6y7 + y5y6y7"
+   ],
+   "isotropicos": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   }
+  },
+  {
+   "x40": [
+    466978405713,
+    315644599584,
+    1060806817758
+   ],
+   "phi": [
+    "y0y1y2 + y0y1y6 + y0y2y3 + y0y2y5 + y0y2y7 + y0y3y4 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y5 + y0y5y6 + y0y6y7 + y1y2y7 + y1y5y6 + y1y5y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y7 + y2y4y7 + y2y5y6 + y2y6y7 + y3y4y5 + y3y5y6 + y4y6y7",
+    "y0y1y7 + y0y2y5 + y0y2y7 + y0y3y4 + y0y3y5 + y0y3y7 + y0y4y7 + y1y2y3 + y1y2y4 + y1y2y5 + y1y2y6 + y1y4y5 + y1y5y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y6 + y2y4y5 + y2y5y6 + y3y4y5 + y4y5y6 + y4y5y7",
+    "y0y1y3 + y0y1y4 + y0y1y5 + y0y1y6 + y0y2y3 + y0y2y4 + y0y2y5 + y0y2y6 + y0y2y7 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y6 + y0y4y7 + y1y2y6 + y1y4y5 + y1y5y6 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y6 + y2y3y7 + y2y4y6 + y2y4y7 + y2y5y7 + y2y6y7 + y3y4y5 + y3y5y6 + y3y6y7 + y4y5y6 + y4y5y7 + y4y6y7 + y5y6y7"
+   ],
+   "isotropicos": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   }
+  },
+  {
+   "x40": [
+    466978405713,
+    907227289519,
+    1060806817758
+   ],
+   "phi": [
+    "y0y1y2 + y0y1y6 + y0y2y3 + y0y2y5 + y0y2y7 + y0y3y4 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y5 + y0y5y6 + y0y6y7 + y1y2y7 + y1y5y6 + y1y5y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y7 + y2y4y7 + y2y5y6 + y2y6y7 + y3y4y5 + y3y5y6 + y4y6y7",
+    "y0y1y2 + y0y1y3 + y0y1y4 + y0y1y5 + y0y1y7 + y0y2y4 + y0y2y5 + y0y2y6 + y0y2y7 + y0y3y5 + y0y3y7 + y0y4y5 + y0y4y6 + y0y5y6 + y0y6y7 + y1y2y3 + y1y2y4 + y1y2y5 + y1y2y7 + y1y6y7 + y2y3y4 + y2y3y5 + y2y4y5 + y2y4y6 + y2y5y7 + y3y4y5 + y3y6y7 + y5y6y7",
+    "y0y1y3 + y0y1y4 + y0y1y5 + y0y1y6 + y0y2y3 + y0y2y4 + y0y2y5 + y0y2y6 + y0y2y7 + y0y3y5 + y0y3y6 + y0y3y7 + y0y4y6 + y0y4y7 + y1y2y6 + y1y4y5 + y1y5y6 + y1y6y7 + y2y3y4 + y2y3y5 + y2y3y6 + y2y3y7 + y2y4y6 + y2y4y7 + y2y5y7 + y2y6y7 + y3y4y5 + y3y5y6 + y3y6y7 + y4y5y6 + y4y5y7 + y4y6y7 + y5y6y7"
+   ],
+   "isotropicos": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   }
+  }
+ ]
+}

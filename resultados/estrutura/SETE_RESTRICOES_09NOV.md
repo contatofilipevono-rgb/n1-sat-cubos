@@ -21,6 +21,25 @@ No caso de 3 lineares, Δ = T + x₁φ₁ + x₂φ₂ + x₃φ₃, com T crític
 | F4+F4 | 2 | **SAT** em 48 s (conferido): N contém planos ⟨φ₁, φ₂⟩ inteiros |
 | F4+F4 | 3 | rodando há mais de 70 min (CryptoMiniSat, 4 threads). O salto de dificuldade em relação a d = 2 sugere UNSAT, sem garantia |
 
+## Resultado (09/11, ~20:40 UTC): o lema, só com φ ∧ T = 0, é FALSO em F4+F4
+
+Outra sessão achou um trio explícito: φ₁, φ₂, φ₃ com as 7 combinações em N.
+- Pasta local: `sete_restricoes_09nov/`.
+- Arquivo: `trio_s22_seed1.json`.
+- Método: enumeração exata de N ∩ S num subespaço aleatório S de dimensão 22.
+
+**Conferência independente** (`confere_trio.py`, força bruta da testemunha F4+F4):
+- φᵢ ∧ T = 0 para i = 1, 2, 3;
+- para cada um dos 7 v ≠ 0, D = T + x·φ_v tem **0 de 788.035** subespaços de codimensão 3 com queda de grau.
+
+**Consequência.** A rota das sete restrições não fecha usando só a parte linear de I6. Para o caso de 3 lineares do Lema L, é preciso:
+- (a) usar I6/I7 completos, que acoplam os φᵢ por termos quadráticos; ou
+- (b) usar subespaços de codim ≤ 5 que não estejam entre as 7 restrições, por exemplo os que se projetam em dimensão 2 ou 3 nas coordenadas x.
+
+**Próximo teste preciso.** O trio se estende a um Δ = T + Σxᵢφᵢ + R em 11 variáveis com I6 ∧ I7? E tem queda de grau em codim ≤ 5 fora das 7 restrições?
+
+A rodada d=3 de F4+F4 no Colab foi encerrada por redundância. As classes F4², Q4a, Q4b e Q4c seguem no Colab seed.
+
 ## Codificação por Möbius (comparação pedida)
 
 `lift_mobius.py`: tabela-verdade + borboleta de Möbius mod 8 (subtratores de 3 bits).
