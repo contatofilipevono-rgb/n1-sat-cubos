@@ -117,6 +117,26 @@ Logo |N ∩ L| < cerca de 2⁴⁰/2·10⁵, mas ainda é grande demais para enum
 
 **Custo do teste interno:** com C₃ fixo em N ∩ L, a extensão a I6 não respondeu em 25 min no PC. A dificuldade está na parte não linear de I6 em R, com produtos R₃·R₃ nos graus 6 e 7.
 
+**Forma explícita de I6.** Como D tem grau ≤ 4, c_S ≡ a_S − 2·#{pares {m, m'} ⊂ supp D : m ∪ m' = S} (mod 4). Logo:
+
+> I6 ⇔ para todo S com |S| ≥ 6, o número de pares de monômios de D cuja união é S é par.
+
+Separando D = T + x·C₃ + R₃ + x·R₂ + R₂' + (grau ≤ 1), com C₃ fixo as equações ficam:
+
+| Caso | Equações | Forma |
+|---|---|---|
+| \|S\| = 8 com x | — | C₃ ∧ T = 0 (as 8 restrições lineares) |
+| \|S\| = 7 sem x | 8 | T ∧ R₃ = const; lineares em R₃ |
+| \|S\| = 7 com x | 28 | C₃∧C₃ + C₃⋆₁T + C₃∧R₃ + R₂∧T = 0; lineares em (R₃, R₂) |
+| \|S\| = 6 sem x | 28 | T⋆₂T + T⋆₁R₃ + T∧R₂' + R₃∧R₃ = 0; quadráticas em R₃ |
+| \|S\| = 6 com x | 56 | aparecem os produtos R₂·R₃; bilineares |
+
+Ao todo são 112 incógnitas e 120 equações independentes.
+
+Em Q4, T∧· : Λ²→Λ⁶ tem posto 26 de 28. Assim, R₂ e R₂' ficam determinados a menos de núcleos de dimensão 2, e sobra **um sistema quadrático com cerca de 50 incógnitas e 58 equações** (uma instância de MQ). Em F₄² e F₄+F₄ o posto é 20 e 18.
+
+**Solver.** O CryptoMiniSat, com XOR nativo, resolve os controles positivos em 6–45 s, contra 80–430 s do CaDiCaL (`interno_cms.py`).
+
 **CEGAR sobre C₃** (`cegar_c3.py`, rodando no PC):
 - O laço externo procura C₃ ∈ N ∩ (restrições lineares) ∩ (cláusulas aprendidas).
 - O interno testa a extensão a I6 com C₃ fixo; se não estende, o core minimizado vira uma cláusula.
