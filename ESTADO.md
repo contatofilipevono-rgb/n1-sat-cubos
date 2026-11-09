@@ -7,6 +7,12 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**09/11, 20:30 UTC: alocação.**
+- Sete restrições, F4+F4 d=3: Colab tab-7, em 8 cubos.
+- Sete restrições nas outras classes (F4^2, Q4a, Q4b, Q4c), d=2 e depois d=3: Colab seed.
+- Piloto da codificação por Möbius: GitHub da conta da Débora (rodado pelo GPT), cubos 0, 17, 42 e 63; não duplicar.
+- PC: só testes leves (7,7 GB de RAM).
+
 **Snapshot de 09/11, 20:15 UTC:** F4+F4 completo com I7 no GitHub: primeiros 16 cubos, todos INDECISO (15000 s). F4+F4 960 com I7, VM (4 classes) e Colab: sem cubo concluído. Rota das 7 restrições: d=2 SAT, d=3 rodando no PC.
 
 **09/11, 18:40 UTC: VM religada para I6 ∧ I7.**
