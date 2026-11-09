@@ -62,6 +62,14 @@ Todas as soluções SAT abaixo têm I6 conferido; a última coluna diz em quais 
 | F4+F4 | 15+60+240 | SAT (GitHub, cubos 28 e 62) | [0, 0, 0, 12] e [0, 0, 0, 21] |
 | Q4a, Q4b, Q4c | 255 | SAT | só nas órbitas de 1020 e 2040 |
 | Q4a | 1020 | SAT (Colab, cubo 1 de 64, 15641 s; reconferido no PC em 09/11) | [7, 0, 14]; I6 sim, I7 não, posto de C3 = 8 |
+| Q4a | 2040 | SAT em 17 de 64 cubos (GitHub run 42521666326; 47 INDECISO; os 17 reconferidos no PC) | quase todos **[15, 0, 0]** ou [19, 0, 0]; alguns [15, 8, 0]; posto de C3 = 8 |
+| Q4c | 1020 | SAT (Colab, cubo 0 de 64, 23439 s; reconferido no PC) | **[19, 0, 0]**; reta comum a todos os 19 |
+
+**Leitura nova para Q4 (09/11, manhã).** Há testemunhas com I6 que escapam ao mesmo tempo das órbitas 1020 e 2040:
+- Q4a: 13 dos 17 cubos têm isotrópicos só na órbita 255;
+- Q4c: o cubo 0 tem isotrópicos só na órbita 255.
+
+Logo, em Q4a e Q4c, uma família que force isotropia precisa conter a órbita de 255. Como a órbita 255 sozinha não força (já há SAT), a próxima pergunta precisa é a união 255 + 1020 + 2040, isto é, as rodadas de classe completa.
 
 **Leitura:**
 - Nenhuma órbita isolada força isotropia, nem as uniões testadas.
