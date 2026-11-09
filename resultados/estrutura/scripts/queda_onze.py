@@ -87,12 +87,13 @@ def busca(Q, log=print):
     S4 = subespacos(8, 4)
     semq4 = grau_max_lote(tt, S4)
     iso4 = S4[~semq4]
-    planos = [(a, b) for a, b in itertools.combinations(Xv, 2) if a < b and (a ^ b) not in (a, b)]
+    # os 7 planos de X (corrigido em 09/11: o filtro antigo 'a < b' descartava o plano {x1+x2, x1+x3, x2+x3})
     pl = []
-    for a, b in planos:
+    for a, b in itertools.combinations(Xv, 2):
         s = frozenset({a, b, a ^ b})
         if s not in [frozenset({c, d, c ^ d}) for c, d in pl]:
             pl.append((a, b))
+    assert len(pl) == 7
     n2 = 0
     for B in iso4:
         reps = complemento(list(B))

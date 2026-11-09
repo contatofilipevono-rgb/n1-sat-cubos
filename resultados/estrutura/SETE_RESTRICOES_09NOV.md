@@ -47,7 +47,7 @@ A rodada d=3 de F4+F4 no Colab foi encerrada por redundância. As classes F4², 
 | k | Subespaços de codim 5 com queda |
 |---|---|
 | 1 (as 7 retas) | **0**, como esperado |
-| 2 (U_Y de dim 4 + 2 direções) | **10.844** |
+| 2 (U_Y de dim 4 + 2 direções) | **12.682** (a contagem antiga, 10.844, omitia o plano ⟨x₁+x₂, x₁+x₃⟩ por um erro de filtro em queda_onze.py, corrigido; achado pela sessão 849f53da com sete4.py) |
 
 **Conferência independente de um deles,** por substituição simbólica, sem tabela-verdade:
 - dim U = 6, isto é, codim 5;
