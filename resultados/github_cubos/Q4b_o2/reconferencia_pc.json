@@ -1,0 +1,324 @@
+[
+ {
+  "nome": "Q4b_o2_gh_cubo0",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 9,
+  "C3_posto": 8,
+  "x*quadraticos": 9,
+  "cubicos_sem_x": 25,
+  "grau<=2": 13,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 0
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo21",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 11,
+  "C3_posto": 8,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 21,
+  "grau<=2": 19,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 21
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo23",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 11,
+  "C3_posto": 8,
+  "x*quadraticos": 10,
+  "cubicos_sem_x": 20,
+  "grau<=2": 14,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 23
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo24",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 11,
+  "C3_posto": 8,
+  "x*quadraticos": 12,
+  "cubicos_sem_x": 15,
+  "grau<=2": 17,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 24
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo26",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 10,
+  "C3_posto": 8,
+  "x*quadraticos": 9,
+  "cubicos_sem_x": 17,
+  "grau<=2": 14,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 26
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo27",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 10,
+  "C3_posto": 8,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 18,
+  "grau<=2": 14,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 27
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo29",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 12,
+  "C3_posto": 8,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 17,
+  "grau<=2": 17,
+  "isotropicos_por_orbita": [
+   15,
+   8,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 2,
+  "cubo": 29
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo31",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 13,
+  "C3_posto": 8,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 22,
+  "grau<=2": 18,
+  "isotropicos_por_orbita": [
+   15,
+   8,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 2,
+  "cubo": 31
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo47",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 18,
+  "C3_posto": 8,
+  "x*quadraticos": 9,
+  "cubicos_sem_x": 20,
+  "grau<=2": 14,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 47
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo49",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 11,
+  "C3_posto": 8,
+  "x*quadraticos": 10,
+  "cubicos_sem_x": 22,
+  "grau<=2": 19,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 49
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo54",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 15,
+  "C3_posto": 8,
+  "x*quadraticos": 16,
+  "cubicos_sem_x": 13,
+  "grau<=2": 13,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 54
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo56",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 11,
+  "C3_posto": 8,
+  "x*quadraticos": 8,
+  "cubicos_sem_x": 22,
+  "grau<=2": 18,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 56
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo59",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 16,
+  "C3_posto": 8,
+  "x*quadraticos": 13,
+  "cubicos_sem_x": 19,
+  "grau<=2": 21,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 59
+ },
+ {
+  "nome": "Q4b_o2_gh_cubo61",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 12,
+  "C3_posto": 8,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 22,
+  "grau<=2": 19,
+  "isotropicos_por_orbita": [
+   15,
+   0,
+   0
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 4,
+  "cubo": 61
+ }
+]
