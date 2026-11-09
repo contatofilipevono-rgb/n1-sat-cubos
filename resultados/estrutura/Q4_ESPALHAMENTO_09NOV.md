@@ -176,3 +176,10 @@ Em Q4, T∧· : Λ²→Λ⁶ tem posto 26 de 28. Assim, R₂ e R₂' ficam deter
 3. **Pergunta precisa (SAT, menor que a classe completa).** As uniões 255+1020 e 255+2040 ainda não foram testadas em Q4.
    - 1020+2040 não força: há testemunhas [15, 0, 0].
    - 255 sozinha não força.
+
+## Simetria de ordem 17 (09/11, noite; `ordem17.py`)
+
+- Nas três classes Q4, |Aut(T)| = 8160 = 2⁵·3·5·17, com 1920 elementos de ordem 17.
+- Cada elemento de ordem 17 age como **um único 17-ciclo** nos 17 W e não fixa nenhum vetor não nulo de F₂⁸.
+- Leitura provável: é a multiplicação por μ₁₇ = F₂₅₆*/F₁₆*, e os W são as retas de F₁₆ (espalhamento desarguesiano).
+- Possível elo com p = 17 e com o bloco de 16, já que ord₁₇(2) = 8. Ainda não conferido contra a cadeia.
