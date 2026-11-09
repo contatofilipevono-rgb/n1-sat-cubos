@@ -1,0 +1,436 @@
+{
+ "q1_nuvem_08nov/colab_Q4a_o1_cubo1_SAT.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   7,
+   0,
+   14
+  ]
+ },
+ "res-0/cubo_0.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   0
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-16/cubo_17.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1,
+   5,
+   6,
+   7,
+   11
+  ],
+  "isotropicos": [
+   19,
+   0,
+   0
+  ]
+ },
+ "res-24/cubo_26.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-24/cubo_27.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-36/cubo_38.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1,
+   4,
+   8,
+   12,
+   15
+  ],
+  "isotropicos": [
+   19,
+   0,
+   0
+  ]
+ },
+ "res-36/cubo_39.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-40/cubo_40.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   0,
+   1,
+   5
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-40/cubo_42.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-40/cubo_43.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-48/cubo_48.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   8,
+   0
+  ]
+ },
+ "res-4/cubo_6.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1,
+   3,
+   10
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-4/cubo_7.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1,
+   6,
+   12
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-52/cubo_55.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1,
+   5,
+   11,
+   14,
+   16
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-56/cubo_57.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-60/cubo_62.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1,
+   12,
+   16
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-60/cubo_63.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   8,
+   0
+  ]
+ },
+ "res-8/cubo_8.json": {
+  "classe": "Q4a",
+  "W_nulos": [
+   0,
+   1,
+   13
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "q1_tres_lineares/sat_orbita_Q4a_o0.json": {
+  "classe": "Q4a",
+  "W_nulos": [],
+  "isotropicos": [
+   0,
+   27,
+   43
+  ]
+ },
+ "res-20/cubo_21.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-20/cubo_23.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1,
+   4,
+   13
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-24/cubo_24.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-28/cubo_29.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   8,
+   0
+  ]
+ },
+ "res-28/cubo_31.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   8,
+   0
+  ]
+ },
+ "res-44/cubo_47.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1,
+   8,
+   13,
+   14,
+   15
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-48/cubo_49.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-52/cubo_54.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1,
+   7,
+   15
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-56/cubo_56.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   0,
+   1,
+   16
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-56/cubo_59.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-60/cubo_61.json": {
+  "classe": "Q4b",
+  "W_nulos": [
+   1
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "q1_tres_lineares/sat_orbita_Q4b_o0.json": {
+  "classe": "Q4b",
+  "W_nulos": [],
+  "isotropicos": [
+   0,
+   22,
+   28
+  ]
+ },
+ "q1_nuvem_08nov/colab_Q4c_o1_cubo0_SAT.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   0,
+   1,
+   4,
+   5,
+   8
+  ],
+  "isotropicos": [
+   19,
+   0,
+   0
+  ]
+ },
+ "res-28/cubo_30.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1,
+   5,
+   12
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-52/cubo_52.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1,
+   2,
+   4,
+   6,
+   10
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "res-56/cubo_58.json": {
+  "classe": "Q4c",
+  "W_nulos": [
+   1,
+   7,
+   10
+  ],
+  "isotropicos": [
+   15,
+   0,
+   0
+  ]
+ },
+ "q1_tres_lineares/sat_orbita_Q4c_o0.json": {
+  "classe": "Q4c",
+  "W_nulos": [],
+  "isotropicos": [
+   0,
+   21,
+   44
+  ]
+ }
+}

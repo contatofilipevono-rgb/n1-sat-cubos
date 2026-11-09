@@ -1,0 +1,6 @@
+# Celula 1 (montar o Drive; aceite a permissao na janela que abrir):
+from google.colab import drive; drive.mount('/content/drive')
+
+# Celula 2 (Q4a, orbitas 255+1020, 256 cubos de ate 50 min, 2 nucleos, retomavel, para em SAT ou 70 h):
+CLASSE,AUTO,ORB,K,TMAX,HMAX='Q4a','automorfismos_Q4a.json','0,1',8,3000,70
+import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/contatofilipevono-rgb/n1-sat-cubos/main/plataformas/colab_retomavel.py').read().decode())
