@@ -1,0 +1,9 @@
+{
+ "n": 12,
+ "DMAX": 2,
+ "rs_bent": 32,
+ "tipos": {
+  "g2_homog_SSSS|W0*W1:+1": 16,
+  "g2_so_topo+lin_SSSS|W0*W1:+1": 16
+ }
+}

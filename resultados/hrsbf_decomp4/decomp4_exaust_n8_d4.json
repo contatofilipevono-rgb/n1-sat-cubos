@@ -1,0 +1,12 @@
+{
+ "n": 8,
+ "DMAX": 4,
+ "rs_bent": 7552,
+ "tipos": {
+  "g2_homog_SSSS|W0*W1:+1": 8,
+  "g2_so_topo+lin_SSSS|W0*W1:+1": 8,
+  "g3_misto_SSSS|W0*W1:+1": 112,
+  "g4_misto_5555|W0*W1:+1": 5376,
+  "g4_misto_SSSS|W0*W1:+1": 2048
+ }
+}
