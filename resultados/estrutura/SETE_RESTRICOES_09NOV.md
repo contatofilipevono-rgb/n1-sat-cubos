@@ -86,6 +86,15 @@ Nenhum caso ficou sem queda. Os aleatórios costumam ter queda já com k = 1, e 
   2. ele tem queda em codim 5 de qualquer forma.
 - As próximas buscas de trios devem impor φᵢ ∧ T = 0 **e** φᵢ ∧ φⱼ = 0.
 
+**Correção (sessão 849f53da):** "φᵢ ∧ φⱼ = 0" vale só no modelo **sem termos mistos**. Com xᵢxⱼψᵢⱼ na quártica, a condição de |S| = 8 com dois x é:
+
+> **φᵢ ∧ φⱼ + ψᵢⱼ ∧ T = 0** em Λ⁶Y, ou seja, φᵢ ∧ φⱼ ∈ T ∧ Λ²Y.
+
+- Em F4+F4, T∧ : Λ² → Λ⁶ tem posto 18 (conúcleo de dimensão 10).
+- O trio do JSON falha também nessa forma: φᵢ ∧ φⱼ ∉ T∧Λ²Y nos três pares, conferido por eliminação. Logo ele não se estende a I6 em 11 variáveis nem com ψᵢⱼ e x₁x₂x₃ℓ livres.
+- Falta conferir se o certificado DRAT do GPT foi gerado no modelo sem ψ.
+- No caso misto, a prova trivial quebra: em W = K ⊕ ⟨x₁, x₂, x₃⟩ aparecem ψᵢⱼ|_K (3 coeficientes cada) e ℓ|_K (3), num total de 15 condições sobre K. A contagem heurística de candidatos (cerca de 10⁵ esperados) não é prova.
+
 ## Prova do GPT (09/11, ~21 UTC): sem termos mistos em x, o caso de 3 lineares é trivial
 
 **Enunciado.** Toda D = T + Σ xᵢφᵢ + R, com deg R ≤ 3, tem queda de grau em codim 5. Não é preciso nenhuma condição de cunha.
