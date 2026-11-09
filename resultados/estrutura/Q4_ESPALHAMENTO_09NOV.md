@@ -100,6 +100,23 @@ Mas o conjunto N de C₃ sem isotrópico é **raríssimo**.
 - O C₃ de N viola 5 delas.
 - A cobertura restrita a esse subespaço afim de dimensão 40 ainda falha: SAT em 381 s, conferido.
 
+**Identificação das 8 restrições** (`hipotese_cunha.py`): nas cinco classes (Q4a, Q4b, Q4c, F₄², F₄+F₄), o espaço das consequências lineares de I6 sobre C₃ coincide exatamente com
+
+> **C₃ ∧ T = 0 em Λ⁷Y ≅ Y** (8 condições).
+
+Explicitamente, f_i(C₃) = #{(a ∈ C₃, c ∈ T) : a ⊔ c = [8]∖{i}} mod 2.
+
+Logo o C₃ efetivo vive em L = {C₃ : C₃ ∧ T = 0} módulo o gauge {ι_u T}, um espaço de dimensão 56 − 8 − 8 = 40. É uma condição intrínseca: não depende de base nem de gauge.
+
+**Amostragem de 200 000 C₃ uniformes em L (Q4a)** (`amostra_L.py`):
+- nenhum sem isotrópico;
+- média de 25,9 isotrópicos;
+- mínimo observado: 2.
+
+Logo |N ∩ L| < cerca de 2⁴⁰/2·10⁵, mas ainda é grande demais para enumerar caso a caso.
+
+**Custo do teste interno:** com C₃ fixo em N ∩ L, a extensão a I6 não respondeu em 25 min no PC. A dificuldade está na parte não linear de I6 em R, com produtos R₃·R₃ nos graus 6 e 7.
+
 **CEGAR sobre C₃** (`cegar_c3.py`, rodando no PC):
 - O laço externo procura C₃ ∈ N ∩ (restrições lineares) ∩ (cláusulas aprendidas).
 - O interno testa a extensão a I6 com C₃ fixo; se não estende, o core minimizado vira uma cláusula.
