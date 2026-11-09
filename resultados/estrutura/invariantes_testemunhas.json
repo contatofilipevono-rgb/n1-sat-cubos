@@ -1,0 +1,284 @@
+[
+ {
+  "nome": "F42_o0",
+  "classe": "F4^2",
+  "I6": true,
+  "I7": true,
+  "C3_monomios": 2,
+  "C3_posto": 3,
+  "x*quadraticos": 4,
+  "cubicos_sem_x": 9,
+  "grau<=2": 11,
+  "isotropicos_por_orbita": [
+   0,
+   7,
+   36,
+   552
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   2880
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "F42_o1",
+  "classe": "F4^2",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 2,
+  "C3_posto": 6,
+  "x*quadraticos": 4,
+  "cubicos_sem_x": 13,
+  "grau<=2": 11,
+  "isotropicos_por_orbita": [
+   7,
+   0,
+   3,
+   75
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   2880
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "F42_o2",
+  "classe": "F4^2",
+  "I6": true,
+  "I7": true,
+  "C3_monomios": 16,
+  "C3_posto": 7,
+  "x*quadraticos": 10,
+  "cubicos_sem_x": 24,
+  "grau<=2": 16,
+  "isotropicos_por_orbita": [
+   0,
+   0,
+   0,
+   46
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   2880
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "F4F4_o0",
+  "classe": "F4+F4",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 9,
+  "C3_posto": 6,
+  "x*quadraticos": 6,
+  "cubicos_sem_x": 14,
+  "grau<=2": 15,
+  "isotropicos_por_orbita": [
+   0,
+   0,
+   9,
+   38
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   960
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "F4F4_o1",
+  "classe": "F4+F4",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 4,
+  "C3_posto": 5,
+  "x*quadraticos": 4,
+  "cubicos_sem_x": 15,
+  "grau<=2": 17,
+  "isotropicos_por_orbita": [
+   0,
+   0,
+   7,
+   36
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   960
+  ],
+  "dim_intersecao_comum_isotropicos": 2
+ },
+ {
+  "nome": "F4F4_o2",
+  "classe": "F4+F4",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 9,
+  "C3_posto": 6,
+  "x*quadraticos": 11,
+  "cubicos_sem_x": 18,
+  "grau<=2": 22,
+  "isotropicos_por_orbita": [
+   15,
+   12,
+   0,
+   4
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   960
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "Q4a_o0",
+  "classe": "Q4a",
+  "I6": true,
+  "I7": true,
+  "C3_monomios": 6,
+  "C3_posto": 8,
+  "x*quadraticos": 8,
+  "cubicos_sem_x": 13,
+  "grau<=2": 12,
+  "isotropicos_por_orbita": [
+   0,
+   27,
+   43
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "Q4b_o0",
+  "classe": "Q4b",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 10,
+  "C3_posto": 8,
+  "x*quadraticos": 9,
+  "cubicos_sem_x": 16,
+  "grau<=2": 12,
+  "isotropicos_por_orbita": [
+   0,
+   22,
+   28
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "Q4c_o0",
+  "classe": "Q4c",
+  "I6": true,
+  "I7": true,
+  "C3_monomios": 8,
+  "C3_posto": 7,
+  "x*quadraticos": 8,
+  "cubicos_sem_x": 14,
+  "grau<=2": 11,
+  "isotropicos_por_orbita": [
+   0,
+   21,
+   44
+  ],
+  "tamanhos_orbitas": [
+   255,
+   1020,
+   2040
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "F42_o3_nuvem",
+  "classe": "F4^2",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 12,
+  "C3_posto": 8,
+  "x*quadraticos": 4,
+  "cubicos_sem_x": 19,
+  "grau<=2": 16,
+  "isotropicos_por_orbita": [
+   15,
+   24,
+   24,
+   0
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   2880
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "res-28_cubo_28",
+  "classe": "F4+F4",
+  "I6": true,
+  "I7": false,
+  "C3_monomios": 11,
+  "C3_posto": 7,
+  "x*quadraticos": 7,
+  "cubicos_sem_x": 17,
+  "grau<=2": 9,
+  "isotropicos_por_orbita": [
+   0,
+   0,
+   0,
+   12
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   960
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ },
+ {
+  "nome": "res-60_cubo_62",
+  "classe": "F4+F4",
+  "I6": true,
+  "I7": true,
+  "C3_monomios": 14,
+  "C3_posto": 8,
+  "x*quadraticos": 15,
+  "cubicos_sem_x": 15,
+  "grau<=2": 14,
+  "isotropicos_por_orbita": [
+   0,
+   0,
+   0,
+   21
+  ],
+  "tamanhos_orbitas": [
+   15,
+   60,
+   240,
+   960
+  ],
+  "dim_intersecao_comum_isotropicos": 0
+ }
+]

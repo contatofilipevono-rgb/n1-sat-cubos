@@ -1,0 +1,3 @@
+Q4c: orbitas [255, 1020, 2040]; testando orbita 0 (|S|=255)
+   17475 var, 114886 clausulas; preparo 13s
+   SAT (3009.7s): I6 conferido=True, isotropicos em S=0 (deve ser 0), total=65, por orbita=[0, 21, 44]

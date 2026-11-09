@@ -1,0 +1,51 @@
+{
+ "classe": "F4^2",
+ "orbita": 0,
+ "tamanho": 15,
+ "tamanhos": [
+  15,
+  60,
+  240,
+  2880
+ ],
+ "SAT": true,
+ "tempo_solver_s": 3.6,
+ "I6_conferido": true,
+ "isotropicos_em_S": 0,
+ "isotropicos_total": 595,
+ "orbitas_dos_isotropicos": [
+  0,
+  7,
+  36,
+  552
+ ],
+ "tem_iso3": true,
+ "anf_extra": [
+  5,
+  6,
+  18,
+  28,
+  33,
+  36,
+  38,
+  48,
+  66,
+  68,
+  69,
+  81,
+  131,
+  132,
+  133,
+  146,
+  148,
+  162,
+  257,
+  259,
+  261,
+  263,
+  272,
+  274,
+  276,
+  278
+ ]
+}

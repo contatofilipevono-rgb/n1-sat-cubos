@@ -1,0 +1,2 @@
+F4+F4: orbitas [15, 60, 240, 960]; testando orbita [3] (|S|=960)
+   49317 var, 360559 clausulas; preparo 11s

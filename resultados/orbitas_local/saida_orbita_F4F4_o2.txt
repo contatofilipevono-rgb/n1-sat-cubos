@@ -1,0 +1,3 @@
+F4+F4: orbitas [15, 60, 240, 960]; testando orbita [2] (|S|=240)
+   15235 var, 97527 clausulas; preparo 11s
+   SAT (2594.2s): I6 conferido=True, isotropicos em S=0 (deve ser 0), total=31, por orbita=[15, 12, 0, 4]

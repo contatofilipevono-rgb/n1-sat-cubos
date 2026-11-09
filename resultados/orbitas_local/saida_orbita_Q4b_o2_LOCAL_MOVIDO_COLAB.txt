@@ -1,0 +1,2 @@
+Q4b: orbitas [255, 1020, 2040]; testando orbita [2] (|S|=2040)
+   89348 var, 665517 clausulas; preparo 29s
