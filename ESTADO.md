@@ -7,6 +7,11 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**Snapshot de 09/11, 18:15 UTC:** sem resultado novo.
+- I6 ∧ I7 F4+F4 completo no GitHub (run 42649448135): 16 jobs rodando, há 2h20.
+- I6 ∧ I7 F4+F4 15+960 no Colab: 8 CaDiCaL, 0 de 64 cubos.
+- VM parada; Débora, Q4c e Kaggle desligados de propósito.
+
 **09/11, ~16:30 UTC: reorganização.**
 - **Desligadas as buscas de UNSAT por força bruta**, que davam só INDECISO:
   - VM GCP `n1-cubos` **parada** (não apagada);
