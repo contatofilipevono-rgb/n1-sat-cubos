@@ -1,0 +1,58 @@
+name: Piloto N1 Mobius
+on:
+  push:
+    branches: [experiment/mobius-pilot-2026-11-09]
+    paths: [.github/workflows/piloto-mobius.yml, piloto_mobius.py]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: n1-mobius-pilot
+  cancel-in-progress: false
+
+jobs:
+  piloto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependencias
+        run: pip install python-sat==1.9.dev21 numpy pycryptosat
+      - name: Preparar CaDiCaL e DRAT
+        run: |
+          git clone -q --depth 1 https://github.com/arminbiere/cadical.git ferramentas-cadical
+          git -C ferramentas-cadical rev-parse HEAD
+          (cd ferramentas-cadical && ./configure -q && make -s -j2)
+          cp ferramentas-cadical/build/cadical ./cadical
+          git clone -q --depth 1 https://github.com/marijnheule/drat-trim.git ferramentas-drat
+          git -C ferramentas-drat rev-parse HEAD
+          gcc -O2 ferramentas-drat/drat-trim.c -o drat-trim
+          ./cadical --version
+          mkdir -p pilot-results
+          { git rev-parse HEAD; git -C ferramentas-cadical rev-parse HEAD; git -C ferramentas-drat rev-parse HEAD; python -m pip freeze; } > pilot-results/toolchain.txt
+      - name: Rodar cubos 0, 17, 42 e 63
+        run: python -u piloto_mobius.py 1800
+      - name: Guardar artefatos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: n1-mobius-resultados
+          path: pilot-results/
+          if-no-files-found: warn
+          retention-days: 90
+      - name: Salvar placar na branch
+        if: always() && github.event_name == 'push'
+        run: |
+          if ! compgen -G 'pilot-results/*.json' > /dev/null; then exit 0; fi
+          pasta="resultados/mobius-piloto/$GITHUB_RUN_ID"
+          mkdir -p "$pasta"
+          cp pilot-results/*.json "$pasta/"
+          git add -- "$pasta"
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Save N1 Mobius pilot $GITHUB_RUN_ID"
+          git push origin "HEAD:$GITHUB_REF_NAME"
