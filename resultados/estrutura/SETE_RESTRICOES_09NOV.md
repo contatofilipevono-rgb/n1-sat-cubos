@@ -66,6 +66,26 @@ Base de U (11 bits; os bits 8..10 são x₁..x₃): 00010110001, 00000000010, 00
   - 20 trios aleatórios em L para F4+F4;
   - 10 trios aleatórios para cada uma das outras 4 classes.
 
+**Lote (Colab, `queda_lote.py`): todos os 65 casos têm queda em codim 5 (k ≤ 2).** Distribuição:
+- F4+F4: 25 casos (os 5 trios do arquivo e 20 trios aleatórios em L);
+- F4²: 10 aleatórios;
+- Q4a, Q4b, Q4c: 10 aleatórios cada.
+
+Nenhum caso ficou sem queda. Os aleatórios costumam ter queda já com k = 1, e os trios de N têm com k = 2.
+
+**Conjectura reforçada (nível C₃, só com a parte linear de I6).** Para φ₁, φ₂, φ₃ com φᵢ ∧ T = 0, Q = T + Σxᵢφᵢ tem queda de grau em codim 5. Ainda não há prova.
+
+## Achado do GPT (09/11, ~20:50 UTC): o trio nem satisfaz I6
+
+- Tome S = {y0, y1, y2, y3, y4, y6, x1, x2}. Exatamente 3 pares de monômios quárticos disjuntos têm união S, então c_S ≡ 2 (mod 4).
+- Nenhum R de grau ≤ 3 corrige isso, porque um quártico mais um monômio de grau ≤ 3 cobre no máximo 7 variáveis.
+- Na codificação por Möbius isso dá UNSAT com DRAT verificado. Os controles passaram: φ = 0 é SAT, conferido nos 2.048 pontos, e o controle negativo é rejeitado.
+- **Condição nova:** I6 exige também **φᵢ ∧ φⱼ = 0** para cada par i < j. São as condições de |S| = 8 com dois x.
+- Então há duas razões independentes para o trio não ser contraexemplo do Lema L:
+  1. ele não se estende a I6;
+  2. ele tem queda em codim 5 de qualquer forma.
+- As próximas buscas de trios devem impor φᵢ ∧ T = 0 **e** φᵢ ∧ φⱼ = 0.
+
 ## Codificação por Möbius (comparação pedida)
 
 `lift_mobius.py`: tabela-verdade + borboleta de Möbius mod 8 (subtratores de 3 bits).
