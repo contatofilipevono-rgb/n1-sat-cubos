@@ -7,6 +7,13 @@
 - **N1 só com I6 é falso para F4+F4.** A testemunha **não** satisfaz I7, então a versão com I6 ∧ I7 segue aberta.
 - Detalhes em `resultados/contraexemplo_N1_F4F4/LEIA.md`. Nada auditado ainda.
 
+**09/11, ~23:30 UTC: alocação — caso misto do Lema L (F4+F4).**
+- Pergunta: existem trios φ₁, φ₂, φ₃ em L/G com β = 0 dois a dois e as 7 combinações sem isotrópico? Se existirem, o próximo passo é o teste de extensão a I6 ∧ I7 em 11 variáveis (`ext_cms.py`).
+- GitHub (workflow `trios-beta`, run 42720532847): 16 sementes com s = 24.
+- Colab tab-4: `sete_beta.py` com s = 22, 23 e 24 (6 processos).
+- Colab seed: busca SAT (`beta_busca.py`, d = 3), continuação.
+- A auditoria do limiar 161/272 é feita pelo Fable 5.2 em outra sessão.
+
 **09/11, ~21 UTC: tudo parado.** Pela prova do GPT, o caso de 3 lineares sem termos mistos é trivial (queda em codim 5 via W = ⟨e0, e1, c⟩ ⊕ ⟨x1, x2, x3⟩). As buscas de N1 com I6 ∧ I7 e das sete restrições perderam relevância. VM parada, runs do GitHub canceladas, Colabs desligados. O caso aberto, com termos mistos xᵢxⱼ, segue com o GPT. Ver esultados/estrutura/SETE_RESTRICOES_09NOV.md.
 
 **09/11, 20:30 UTC: alocação.**
