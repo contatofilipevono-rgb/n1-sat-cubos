@@ -69,9 +69,21 @@ Todas as soluções SAT abaixo têm I6 conferido; a última coluna diz em quais 
 
 F4^2, 15+2880: Kaggle (4 núcleos, internet ligada), saída em `/kaggle/working/n1`. Use "Save Version" para guardar os arquivos; o placar sai na saída da célula.
 | Q4a, todas as órbitas; Q4b/Q4c 2040 | GitHub Actions, workflow `cubos` | `gh run list` |
-| Q4b, todas as órbitas | Colab de conta parceira (Drive dela: `n1_inst_09nov/Q4b_todas`); encerra sozinho | — |
+| Q4b, todas as órbitas, k=8 (256 cubos) | GitHub Actions da segunda conta, fork `filipemvono-ops/n1-sat-cubos`, run 42557164345 | `gh run view 42557164345 -R filipemvono-ops/n1-sat-cubos` |
+| Q4b, todas as órbitas, k=6 (64 cubos) | Colab da conta parceira (Drive dela: `n1_inst_09nov/Q4b_todas`), 2 núcleos, só como conferência independente | `RESUMO.json` no Drive dela |
 | Q4c, todas as órbitas | Colab (Drive: `n1_inst_09nov/Q4c_todas`) | — |
 | Q4a/b/c, órbita 1020 em cubos; Q4 2040 inteira | Colab principal (Drive: `n1_colab_08nov/cubos_q4`) | — |
+
+## Dificuldade dos cubos (medida)
+
+- A rodada F4+F4 15+60+240 no GitHub (k=6, 64 cubos, 15000 s por cubo) terminou assim:
+  - 2 cubos SAT, os cubos 28 e 62;
+  - **62 cubos INDECISO**.
+- Nas classes completas, que têm mais restrições, cubos k=6 provavelmente também estouram o tempo. Uma resposta UNSAT vai exigir subdividir os INDECISO (k maior) ou dar mais tempo por cubo. Um SAT já responde.
+- Para Colab gratuito, que desconecta por inatividade, use `plataformas/colab_retomavel_q4b_k10.py`:
+  - 1024 cubos com 50 min cada;
+  - copia os resultados ao Drive a cada 3 min;
+  - ao reconectar, retoma do que já está no Drive.
 
 ## Como retomar uma rodada
 
