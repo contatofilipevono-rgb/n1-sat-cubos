@@ -1,0 +1,44 @@
+name: trios-beta
+# Caso misto do Lema L (F4+F4): trios em L/G com beta=0 dois a dois e as 7 combinacoes sem U_Y isotropico,
+# por enumeracao exata de N∩S em subespacos aleatorios S de dimensao s (resultados/estrutura/sete_outra/sete_beta.py).
+on:
+  workflow_dispatch:
+    inputs:
+      s: {description: "dimensao do subespaco S (22..25)", required: true, default: "24"}
+      seed0: {description: "primeira semente", required: true, default: "3"}
+      n: {description: "numero de sementes (jobs)", required: true, default: "16"}
+
+jobs:
+  prepara:
+    runs-on: ubuntu-latest
+    outputs:
+      seeds: ${{ steps.m.outputs.seeds }}
+    steps:
+      - id: m
+        run: echo "seeds=$(python3 -c "a=int('${{ inputs.seed0 }}'); n=int('${{ inputs.n }}'); print(list(range(a,a+n)))")" >> "$GITHUB_OUTPUT"
+
+  busca:
+    needs: prepara
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        seed: ${{ fromJSON(needs.prepara.outputs.seeds) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q "numpy>=2.0"
+      - name: busca
+        working-directory: resultados/estrutura/sete_outra
+        run: python -u sete_beta.py ${{ inputs.s }} ${{ matrix.seed }} 20 | tee log_s${{ inputs.s }}_${{ matrix.seed }}.txt
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trios-s${{ inputs.s }}-seed${{ matrix.seed }}
+          path: |
+            resultados/estrutura/sete_outra/trio_beta_s${{ inputs.s }}_seed${{ matrix.seed }}.json
+            resultados/estrutura/sete_outra/log_s${{ inputs.s }}_${{ matrix.seed }}.txt
+          retention-days: 30
