@@ -78,3 +78,35 @@ Arquivos: antipodal_compl.py, d_compl_n12.py e d_compl_n12.txt.
 - ou fazer a indução pela restrição a vetores periódicos (Fix ρ^k), que é um caso mais forte que (C).
 
 Esse é trabalho de caneta, para Fable ou GPT.
+## Resposta do Fable e auditoria (10/11, noite)
+
+### ERRATA: ordenação das órbitas
+- Meus scripts fix_restricoes_n12.py e d_compl_n12.py decodificavam o catálogo do Astra com as órbitas na ordem lexicográfica das combinações. O Astra usa a ordem do menor valor de máscara; as duas ordens diferem nos graus 3 e 4.
+- **Inválidos:** os resultados de n=12 obtidos antes da correção:
+  - "span 6 contra 8 e 2 relações extras";
+  - "falha em 8 dos 16 pontos de Fix4".
+- **Continuam válidos:**
+  - o teste do bit 42 (órbita x₀x₃x₆x₉), porque o índice 42 coincide nas duas ordens;
+  - a conclusão "(C) vale em E", que foi refeita.
+- Correção aplicada em fix_restricoes_n12.py. Validação (valida_decod.py): 120 de 120 funções reconstruídas do catálogo são bent.
+- **Refeito com a ordem correta** (d_compl_n12_corrigido.txt): D(x) = g(x)+g(x+𝟏) é constante em TODOS os 76 pontos de Fix6 ∪ Fix4.
+  - Em E vale 0, como prevê (C).
+  - Em Fix4, D(y,y,y) = wt(y) mod 2. Isso equivale a β=1, γ=δ=0 na Prop. parity (N₃ ímpar, N₁ e N₂ pares), agora em n=12 = 4·3, com p=3, caso que o manuscrito exclui.
+
+### Afirmações do Fable conferidas (reducao_fable.py)
+- **Lema 1** (correto, com prova curta): em E, a ANF de G = g|_E tem coeficientes b_{S'} = a_{S'∪(S'+m)}, e grau ≤ ⌊m/2⌋. Conferido em RS aleatórias com n=8 e n=12.
+- **(C) ⇔ D_𝟏G ≡ m**, um sistema linear nos b. Por eliminação exata:
+  - n=8: b{0,2} = 0, ou seja, sem a órbita x₀x₂x₄x₆;
+  - n=10: uma única relação, que é a própria regra em x=0. **(C) em n=10 (e n=6) é TEOREMA**, pela paridade antipodal de 2p^a. Minha afirmação anterior, "(C) em x≠0 é nova mesmo em 2p^a", estava ERRADA para n=6 e n=10.
+  - n=12: b{0,3} = 0 (a regra), b{0,1,3} = b{0,2,3} e b{0,1,2} = b{0,2,4}. As duas últimas envolvem só monômios de grau 6. Logo, **para grau ≤ 5 em n=12, (C) ⇔ regra**, e no catálogo de grau ≤ 4 já está verificada.
+  - n=14: regra, mais b012 = b024 = b014 = b013 + b015 (grau 6).
+- **Não conferido:** as famílias (Niho/Leander–Kholosha, classes Σxᵢx_{i+m}+γ, idempotentes, PS_ap), nem o comentário sobre arXiv:1303.2282.
+
+### Teste das relações de grau 6 em n=12
+- O catálogo two-sextic do Astra (26.681 funções) tem todos os coeficientes antipodais de grau 6 nulos (sextica_relacoes.py), então o teste não é informativo.
+- **Falta** o teste exato que o Fable sugere: buscar RS bent em n=12 com b012 ≠ b024, ou b013 ≠ b023, ou a órbita x₀x₃x₆x₉ presente. UNSAT nos três casos prova (C) em n=12.
+
+### Observação extra (d_unificado_n6_8_10.py)
+- D(x) = n/2 + wt(x) vale para todas as bent exatamente em E ∪ C_n, com 2^{m+1} pontos em n=6, 8, 10.
+- Em C_n isso é trivial: lá x+𝟏 = τx.
+- Em n=12, os pontos de Fix4 fora de E também seguem D = n/2 + wt(x).

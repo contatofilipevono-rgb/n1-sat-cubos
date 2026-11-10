@@ -8,11 +8,11 @@ N = 12; MASK = (1 << N) - 1
 rot = lambda m, j=1: ((m << j) | (m >> (N - j))) & MASK if j % N else m
 
 def orbits(d):
+    # ordem do Astra (top_filters/higher_filter): representante = menor máscara restante (CORRIGIDO 10/11;
+    # antes usava a ordem lexicográfica das combinações, que difere nos graus 3 e 4)
     rem = set(sum(1 << i for i in c) for c in itertools.combinations(range(N), d)); out = []
-    for c in itertools.combinations(range(N), d):          # mesma ordem do top_filters do Astra
-        m = sum(1 << i for i in c)
-        if m in rem:
-            o = sorted({rot(m, j) for j in range(N)}); out.append(o); rem -= set(o)
+    while rem:
+        r = min(rem); o = sorted({rot(r, j) for j in range(N)}); out.append(o); rem -= set(o)
     return out
 LOW = orbits(2) + orbits(3); TOP = orbits(4)
 assert len(LOW) == 25 and len(TOP) == 43 and 585 in TOP[42]
