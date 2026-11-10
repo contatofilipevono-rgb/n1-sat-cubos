@@ -1,0 +1,12 @@
+﻿rep 250/2565: topos 10182, registros 7656576, negabent 0 (82s)
+rep 500/2565: topos 17738, registros 16921856, negabent 0 (130s)
+rep 750/2565: topos 26946, registros 23645440, negabent 0 (189s)
+rep 1000/2565: topos 33684, registros 30530432, negabent 0 (239s)
+rep 1250/2565: topos 40252, registros 40847104, negabent 0 (278s)
+rep 1500/2565: topos 46808, registros 49985280, negabent 0 (314s)
+rep 1750/2565: topos 53708, registros 56704768, negabent 0 (349s)
+rep 2000/2565: topos 58126, registros 63899392, negabent 0 (375s)
+rep 2250/2565: topos 62734, registros 70921984, negabent 0 (398s)
+rep 2500/2565: topos 67310, registros 76263936, negabent 0 (420s)
+TOTAL: topos 67648, registros normalizados 77319680, f com f+s2 no catálogo (bent-negabent): 0
+controles: 25 / 25 reconstruídas bent; 0 com f+s2 bent
