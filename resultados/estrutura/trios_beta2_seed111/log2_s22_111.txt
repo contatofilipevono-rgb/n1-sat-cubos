@@ -1,0 +1,27 @@
+controles: dim J = 18, posto beta = 10
+|N∩S| = 20697 (8s)
+pares com beta=0: 969 (10s)
+   par 0/969: dim C_ab=20, c em N: 5200, sobreviventes: 0 (12s)
+   par 50/969: dim C_ab=20, c em N: 5267, sobreviventes: 0 (114s)
+   par 100/969: dim C_ab=20, c em N: 5161, sobreviventes: 0 (214s)
+   par 150/969: dim C_ab=20, c em N: 5263, sobreviventes: 0 (315s)
+   par 200/969: dim C_ab=20, c em N: 5243, sobreviventes: 0 (416s)
+TRIO no par 202: n_c=4 isotropicos {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0} beta [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+TRIO no par 203: n_c=4 isotropicos {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0} beta [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+TRIO no par 246: n_c=4 isotropicos {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0} beta [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+   par 250/969: dim C_ab=20, c em N: 5162, sobreviventes: 0 (515s)
+   par 300/969: dim C_ab=20, c em N: 5271, sobreviventes: 0 (616s)
+   par 350/969: dim C_ab=20, c em N: 5232, sobreviventes: 0 (716s)
+   par 400/969: dim C_ab=20, c em N: 5294, sobreviventes: 0 (817s)
+   par 450/969: dim C_ab=20, c em N: 5098, sobreviventes: 0 (920s)
+   par 500/969: dim C_ab=20, c em N: 5351, sobreviventes: 0 (1023s)
+   par 550/969: dim C_ab=20, c em N: 5287, sobreviventes: 0 (1128s)
+   par 600/969: dim C_ab=20, c em N: 5169, sobreviventes: 0 (1232s)
+   par 650/969: dim C_ab=20, c em N: 5334, sobreviventes: 0 (1333s)
+   par 700/969: dim C_ab=20, c em N: 5229, sobreviventes: 0 (1433s)
+   par 750/969: dim C_ab=20, c em N: 5226, sobreviventes: 0 (1536s)
+   par 800/969: dim C_ab=20, c em N: 5205, sobreviventes: 0 (1638s)
+   par 850/969: dim C_ab=20, c em N: 5069, sobreviventes: 0 (1741s)
+   par 900/969: dim C_ab=20, c em N: 5312, sobreviventes: 0 (1844s)
+   par 950/969: dim C_ab=20, c em N: 5189, sobreviventes: 0 (1949s)
+FIM: pares varridos 969, trios 3 (1987s)
