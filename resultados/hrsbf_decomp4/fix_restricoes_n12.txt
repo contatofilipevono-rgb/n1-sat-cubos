@@ -1,0 +1,5 @@
+﻿registros 4029176, vetores distintos em Fix6∪Fix4: 32, pontos 76
+dim span genérico (com constante): 8; dim span afim bent: 6
+relações genéricas: 69; relações bent: 71; extras (só bent): 2
+g(110000110000) + g(001111001111) = 0
+1 + g(101000101000) + g(011111011111) = 0
