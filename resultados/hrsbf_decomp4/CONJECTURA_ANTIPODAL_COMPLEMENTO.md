@@ -110,3 +110,14 @@ Esse é trabalho de caneta, para Fable ou GPT.
 - D(x) = n/2 + wt(x) vale para todas as bent exatamente em E ∪ C_n, com 2^{m+1} pontos em n=6, 8, 10.
 - Em C_n isso é trivial: lá x+𝟏 = τx.
 - Em n=12, os pontos de Fix4 fora de E também seguem D = n/2 + wt(x).
+## Fable, 2ª resposta: redução mod 3 em P₄ = Fix(ρ⁴) (10/11) — CONFERIDA
+
+**Afirmação.** Seja g RS bent em n=12 e g₄ = g|_{P₄}, que é RS em 4 variáveis. Para u ∈ P₄, W_{g₄}(u) ≡ W_g(u) = ±64 ≡ ±1 (mod 3). Daí só há dois casos:
+1. g₄ é RS bent em 4 variáveis, e g(0)+g(𝟏) = 0 (a regra vale);
+2. g₄ = afim + δ_a com a ∈ {0, 𝟏}, e g(0)+g(𝟏) = 1 (a regra falha).
+
+**Conferência** (verifica_fable_p4.py, exaustivo nas 2¹⁶ funções de 4 variáveis):
+- 1408 funções têm W ≢ 0 (mod 3) em todo u: 896 bent e 512 afim + δ, nenhuma outra;
+- entre as RS: 8 bent, todas com g(0)+g(𝟏) = 0; 8 afim + δ, todas com g(0)+g(𝟏) = 1.
+
+**Consequência.** Um contraexemplo à regra em n=12 tem, nas 6 órbitas de período 4, os valores (0,0,0,0,0,1) ou (0,1,1,1,1,1) (normalizado), com os sinais de Walsh nesses pontos fixados. Isso é a versão p=3 da Prop. small(1) do manuscrito, que exige p ≥ 5. O caso 2 é exatamente o que p=3 deixa passar.
