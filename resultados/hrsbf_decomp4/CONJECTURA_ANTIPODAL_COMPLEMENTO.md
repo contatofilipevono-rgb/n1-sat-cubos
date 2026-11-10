@@ -59,3 +59,22 @@ Arquivos: antipodal_compl.py, d_compl_n12.py e d_compl_n12.txt.
 **Próximo passo sugerido.** Procurar a identidade exata por trás de (C'). Candidatos:
 - uma involução por coclasse que troque o sinal de (-1)^g, explorando T^k, que age na coclasse Y como X ↦ X^{2^k} + c_k Y;
 - a estrutura de Hadamard da matriz M(a,c) = Σ_{x∈a+E} (-1)^{g(x)+c·x}.
+## Busca do mecanismo exato (10/11, noite) — resultado NEGATIVO no sentido útil
+
+**Hipótese testada (C'').** Em cada classe proibida w, g_w(y) = g(y, y+w) teria uma estrutura linear anti-invariante, isto é, um e com g_w(y+e) = g_w(y)+1. Isso daria balanceamento exato.
+
+**Testes** (mecanismo_C.py, e_rotacao.py, afim_coclasse.py):
+- Vale em 100% dos pares (g, w) proibidos para n=6, 8 e 10.
+- O e depende de g: nenhuma escolha universal, nem e = rotação de w, nem w + rotação, para n ≥ 8.
+
+**Por que isso não ajuda.** Pela meia-volta τ, g_w tem período w, logo é uma função em F^m/⟨w⟩, que tem dimensão m−1.
+- Em n ≤ 8 essa dimensão é ≤ 3. Toda função balanceada em ≤ 3 variáveis tem estrutura linear anti-invariante (é afim-equivalente a x₃ ou a x₁x₂+x₃).
+- Logo (C'') é equivalente ao balanceamento nesses n: não é um mecanismo novo.
+- Controle (controle_generico_n8.py): numa RS genérica de grau ≤ 4 em n=8, 54,6% dos pares proibidos já têm um e anti-invariante.
+- O grau ≤ 2 de g_w também é genérico, não é efeito de bent.
+
+**Conclusão.** Os dados de n ≤ 10 não revelam o mecanismo. A prova de (C') precisa de um argumento global:
+- usar a matriz de somas por classe com caracteres, M(a,c) = Σ_{x∈a+E} (-1)^{g(x)+c·x}, e a dualidade g ↔ g̃;
+- ou fazer a indução pela restrição a vetores periódicos (Fix ρ^k), que é um caso mais forte que (C).
+
+Esse é trabalho de caneta, para Fable ou GPT.
