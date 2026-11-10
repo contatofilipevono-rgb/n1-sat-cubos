@@ -34,3 +34,28 @@ Arquivos: antipodal_compl.py, d_compl_n12.py e d_compl_n12.txt.
 - (C) é conjectura. O argumento direto mod 4 em W(b,b) só dá S ≡ 0 mod 4, que é fraco.
 - O caminho natural é estender a prova da paridade antipodal (thm:apar, n = 2p^a) de x = 0 para todo x ∈ Fix(σ).
 - Falta comparação bibliográfica: pode ser conhecido para bent invariantes por involução.
+## Tentativa de prova (10/11, tarde) — o que ficou estabelecido
+
+**Notação.** n = 2m. E = {(z,z)} satisfaz E^⊥ = E. As coclasses de E são indexadas por w = x₁+x₂ ∈ F^m; ρ age em w como a rotação cíclica de m bits, e a coclasse w tem paridade de peso wt(w). G(z) = g(z,z) e G̃(z) = g̃(z,z), onde g̃ é a dual.
+
+1. **Reformulação (provada, por Poisson).** Seja s_g(w) = Σ_{x₁+x₂=w} (-1)^{g(x)}. Então s_g(w) = W_{G̃}(w). Logo:
+
+   > (C) para g̃ ⇔ (C') para g: s_g(w) = 0 sempre que wt(w) ≢ m (mod 2).
+
+   Ou seja: **toda RS bent é balanceada em cada coclasse de E de paridade ≠ m.** A dual de uma RS bent é RS bent, então (C) para todas ⇔ (C') para todas.
+
+   Conferência exata (coclasse_C.py): n=6, 8, 10 exaustivos, 0 violações. Nas demais coclasses, |s| ∈ {0, 8} (n=6), {0, 16} (n=8), {0, 8, 32} (n=10).
+
+2. **A simetria cíclica completa é necessária.** (C) é FALSA para bent invariante só pela meia-volta τ. Contraexemplo em n=4: f(a,b) = aᵀAb com A = [[1,1],[1,0]] (simétrica e inversível, logo bent e τ-invariante). Aqui G(z) = z₁, então G(z+𝟏)+G(z) = 1 ≢ m = 2.
+
+   Para A simétrica geral, G(z+𝟏)+G(z) = Σᵢ A_ii. Uma prova de (C) precisa usar ρ, e não só τ.
+
+3. **O método do thm:apar não basta.**
+   - Em coordenadas de Dillon (K², T(X,Y) = (X²+bY², Y²)): E ↔ K×{0}, 𝟏 ↔ (1,0), coclasse ↔ Y, paridade ↔ Tr(Y).
+   - O argumento de congruência mod p (órbitas de T^k na coclasse Y ∈ F_{2^k}, com m/k = p^j) dá apenas s(w) ≡ s_{2k}(w) (mod p), para a restrição aos vetores 2k-periódicos.
+   - Com k = 1, isso recupera a regra em x = 0 para n = 2p^a: s(0) ≡ 0 mod p, mais a cota. Mas para w com período k > 1 só sai a congruência, não s = 0.
+   - Portanto **(C) em x ≠ 0 é nova mesmo nas famílias 2p^a, 4p^a, 6p^a.** Fechá-la exige outro ingrediente: um balanceamento exato, não modular.
+
+**Próximo passo sugerido.** Procurar a identidade exata por trás de (C'). Candidatos:
+- uma involução por coclasse que troque o sinal de (-1)^g, explorando T^k, que age na coclasse Y como X ↦ X^{2^k} + c_k Y;
+- a estrutura de Hadamard da matriz M(a,c) = Σ_{x∈a+E} (-1)^{g(x)+c·x}.
