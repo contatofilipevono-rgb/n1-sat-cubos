@@ -9,7 +9,8 @@ import sys, time, json, itertools
 import numpy as np
 sys.stdout.reconfigure(encoding="utf-8")
 from sete_beta import anf, beta, em_N, T, L3, elim
-from gama_massey import wedge, cub, DOIS, UM, nucleo_beta, soluvel
+from gama_massey import wedge, cub, DOIS, UM, nucleo_beta, soluvel, sistema
+nctrl = [0]
 
 def wv(P, Q): return wedge(P, Q)
 CUBX = [cub(anf(1 << k)) for k in range(40)]  # phi de cada vetor da base de L/G
@@ -90,7 +91,7 @@ def espaco_phi3(pa, pb, A12):
     for q in UM:   cols.append(bl(wedge(T, [q]), 2))                           # B
     ker = nucleo_int(cols, len(cols))
     proj = [v & ((1 << 40) - 1) for v in ker]
-    return elim(proj, 40)
+    return list(elim(proj, 40).values())
 
 if __name__ == "__main__":
     NP, seed = int(sys.argv[1]), int(sys.argv[2])
@@ -129,6 +130,10 @@ if __name__ == "__main__":
             # enumera P
             xs = np.zeros(1 << d, dtype=np.uint64)
             for k, v in enumerate(P): xs[(np.arange(1 << d) >> k) & 1 == 1] ^= np.uint64(v)
+            if s % 128 == 0 and d:  # controle cruzado com gama_massey.sistema
+                c0 = int(xs[rng.integers(1, 1 << d)])
+                assert soluvel(*sistema([pa, pb, cub(anf(c0))])), "controle cruzado falhou"
+                nctrl[0] += 1
             vivo = xs[em_N(xs)]
             for sh in (a, b, a ^ b):
                 if len(vivo): vivo = vivo[em_N(vivo ^ np.uint64(sh))]
@@ -142,4 +147,4 @@ if __name__ == "__main__":
         print(f"par {par}: dim max P = {melhor}, achados acumulados {len(achados)} ({time.time()-t0:.0f}s)", flush=True)
     json.dump({"seed": seed, "pares": len(stats), "dimP": stats, "achados": achados},
               open(f"gama_dirigido_seed{seed}.json", "w"), indent=1)
-    print("FIM pares", len(stats), "achados", len(achados))
+    print("FIM pares", len(stats), "achados", len(achados), "controles cruzados ok:", nctrl[0])
