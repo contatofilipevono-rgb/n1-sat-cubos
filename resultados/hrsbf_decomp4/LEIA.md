@@ -13,3 +13,9 @@ As RS bent de n = 8 foram enumeradas por completo (todas têm grau ≤ 4); em n 
 - n = 2p^a: é a paridade antipodal (thm:apar, m = 2) da nota de grau ímpar.
 - Demais n (12, 20, 24, …): aberto.
 - Os dados de n = 8, 10 e 14 caem nos casos já provados.
+
+## n = 12, caso aberto (09/11)
+
+- A busca semi-exaustiva (linear + quadrática arbitrárias + até 2 órbitas de grau 3 ou 4) achou 128 RS bent: 32 de grau 2 e 96 de grau 3. **Todas** satisfazem g(0) + g(1) = 0 = n/2 mod 2, e o tipo é SSSS.
+- Não há RS bent PS de Dillon em n = 12: as órbitas de Frobenius em Z/65 têm tamanhos {1, 4, 12×5} e nunca somam 32 ou 33.
+- É evidência a favor da regra no primeiro caso aberto, ainda sem prova.
