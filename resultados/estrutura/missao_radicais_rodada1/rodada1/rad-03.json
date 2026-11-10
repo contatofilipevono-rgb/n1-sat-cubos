@@ -1,0 +1,5525 @@
+{
+  "seed": 1517,
+  "pairs": [
+    {
+      "a": 6345082252,
+      "b": 991074374060,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 872,
+        "5": 148,
+        "7": 4
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 36,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            12,
+            17,
+            18,
+            20,
+            24,
+            36,
+            48,
+            130
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 650,
+          "A12_supports": [
+            9,
+            12,
+            18,
+            20,
+            34,
+            40,
+            48,
+            65,
+            68,
+            80,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 901,
+          "A12_supports": [
+            5,
+            6,
+            12,
+            20,
+            24,
+            33,
+            36,
+            48,
+            65,
+            68,
+            96,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 1001,
+          "A12_supports": [
+            5,
+            6,
+            12,
+            20,
+            33,
+            40,
+            48,
+            72,
+            96,
+            130,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 9360460175,
+      "b": 295163498856,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 849,
+        "5": 173,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 202,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            10,
+            12,
+            34,
+            40,
+            65,
+            66,
+            68,
+            72,
+            80,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 258,
+          "A12_supports": [
+            10,
+            12,
+            20,
+            34,
+            65,
+            66,
+            68,
+            96,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 11264314299,
+      "b": 591842689535,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 848,
+        "5": 175,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 183,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            12,
+            17,
+            20,
+            24,
+            33,
+            34,
+            36,
+            48,
+            65,
+            129,
+            130,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 18676511770,
+      "b": 689057075257,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 860,
+        "5": 162,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 697,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            17,
+            33,
+            40,
+            65,
+            68,
+            129,
+            130,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 772,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            12,
+            18,
+            24,
+            36,
+            65,
+            66,
+            80,
+            96,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 22724255395,
+      "b": 839516065963,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 170,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 158,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            17,
+            18,
+            34,
+            36,
+            40,
+            48,
+            65,
+            66,
+            72,
+            129,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 23868624903,
+      "b": 530920443882,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 170,
+        "3": 852,
+        "7": 2
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 132,
+          "A12_supports": [
+            6,
+            10,
+            12,
+            17,
+            20,
+            24,
+            36,
+            65,
+            80,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 427,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            12,
+            17,
+            18,
+            20,
+            33,
+            34,
+            40,
+            96,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 28351798173,
+      "b": 1066147210769,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 886,
+        "5": 136,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 407,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            20,
+            24,
+            33,
+            34,
+            36,
+            65,
+            80,
+            96,
+            129,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 980,
+          "A12_supports": [
+            9,
+            18,
+            20,
+            24,
+            36,
+            65,
+            68,
+            72,
+            96,
+            129,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 32234442993,
+      "b": 486585770744,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 866,
+        "5": 154,
+        "7": 4
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 111,
+          "A12_supports": [
+            3,
+            9,
+            17,
+            20,
+            24,
+            33,
+            34,
+            36,
+            40,
+            65,
+            68,
+            130,
+            132,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 476,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            17,
+            18,
+            20,
+            24,
+            36,
+            40,
+            65,
+            66,
+            80,
+            96,
+            129,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 722,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            18,
+            20,
+            34,
+            65,
+            66,
+            80,
+            129,
+            132,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 936,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            17,
+            18,
+            40,
+            65,
+            68,
+            72,
+            96,
+            130,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 35733926298,
+      "b": 709176258432,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 859,
+        "5": 161,
+        "7": 4
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 32,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            18,
+            24,
+            65,
+            68,
+            80,
+            130
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 202,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            17,
+            18,
+            20,
+            24,
+            34,
+            40,
+            68,
+            72,
+            80,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 513,
+          "A12_supports": [
+            3,
+            9,
+            10,
+            17,
+            24,
+            33,
+            68,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 955,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            20,
+            24,
+            33,
+            34,
+            40,
+            66,
+            80,
+            96,
+            129,
+            130,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 39634655600,
+      "b": 94983745398,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 877,
+        "5": 147
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 44884358626,
+      "b": 963561449386,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 842,
+        "5": 181,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 222,
+          "A12_supports": [
+            10,
+            17,
+            20,
+            24,
+            34,
+            36,
+            40,
+            65,
+            68,
+            96,
+            129,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 45930693682,
+      "b": 1039195934739,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 842,
+        "5": 179,
+        "7": 3
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 3,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            12,
+            24,
+            33,
+            34,
+            48,
+            66,
+            96
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 687,
+          "A12_supports": [
+            9,
+            12,
+            33,
+            34,
+            36,
+            40,
+            48,
+            65,
+            66,
+            68,
+            80,
+            96,
+            130,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 883,
+          "A12_supports": [
+            5,
+            6,
+            12,
+            24,
+            33,
+            34,
+            48,
+            68,
+            72,
+            129,
+            130,
+            132,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 50568542165,
+      "b": 993079303222,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 847,
+        "5": 175,
+        "7": 2
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 291,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            12,
+            17,
+            20,
+            24,
+            33,
+            34,
+            65,
+            68,
+            80,
+            96,
+            130,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 558,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            12,
+            18,
+            20,
+            34,
+            36,
+            40,
+            65,
+            68,
+            80,
+            130,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 60018367761,
+      "b": 163813602299,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 160
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 64001614440,
+      "b": 1062740047706,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 845,
+        "7": 1,
+        "5": 178
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 2,
+          "A12_supports": [
+            3,
+            5,
+            12,
+            17,
+            20,
+            24,
+            34,
+            48,
+            66,
+            68,
+            96,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 65481809476,
+      "b": 77783205567,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 868,
+        "5": 153,
+        "7": 3
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 204,
+          "A12_supports": [
+            12,
+            20,
+            36,
+            40,
+            66,
+            68,
+            80,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 736,
+          "A12_supports": [
+            5,
+            10,
+            12,
+            20,
+            24,
+            65,
+            66,
+            68,
+            130,
+            132,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 950,
+          "A12_supports": [
+            6,
+            9,
+            10,
+            12,
+            17,
+            34,
+            36,
+            72,
+            80,
+            96,
+            129,
+            130,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 66891849063,
+      "b": 996182947913,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 868,
+        "5": 152,
+        "7": 4
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 272,
+          "A12_supports": [
+            6,
+            10,
+            18,
+            48,
+            65,
+            66,
+            80,
+            129,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 315,
+          "A12_supports": [
+            6,
+            10,
+            20,
+            33,
+            34,
+            40,
+            48,
+            66,
+            80,
+            129,
+            130,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 430,
+          "A12_supports": [
+            6,
+            10,
+            17,
+            18,
+            24,
+            34,
+            36,
+            40,
+            48,
+            65,
+            68,
+            80,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 712,
+          "A12_supports": [
+            9,
+            18,
+            20,
+            40,
+            48,
+            72,
+            80,
+            96,
+            132,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 67719397465,
+      "b": 357795561324,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 850,
+        "5": 170,
+        "7": 4
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 122,
+          "A12_supports": [
+            5,
+            9,
+            12,
+            18,
+            34,
+            40,
+            48,
+            68,
+            129,
+            130,
+            132
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 485,
+          "A12_supports": [
+            6,
+            12,
+            24,
+            33,
+            36,
+            48,
+            65,
+            66,
+            80,
+            96,
+            130,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 618,
+          "A12_supports": [
+            9,
+            10,
+            12,
+            18,
+            34,
+            40,
+            48,
+            65,
+            66,
+            68,
+            80,
+            130,
+            132,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 656,
+          "A12_supports": [
+            9,
+            10,
+            12,
+            17,
+            18,
+            20,
+            48,
+            65,
+            68,
+            72,
+            80,
+            129,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 72282196039,
+      "b": 889483988680,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 187,
+        "3": 836,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 695,
+          "A12_supports": [
+            10,
+            17,
+            18,
+            20,
+            33,
+            34,
+            36,
+            48,
+            66,
+            72,
+            96,
+            129,
+            130,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 74692832253,
+      "b": 1021028748101,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 873,
+        "5": 150,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 614,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            10,
+            17,
+            20,
+            34,
+            36,
+            48,
+            65,
+            66,
+            68,
+            72,
+            96,
+            130,
+            132,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 76412998262,
+      "b": 963309695878,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 860,
+        "5": 164
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 83115278543,
+      "b": 578016251836,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 836,
+        "5": 188
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 85456180762,
+      "b": 752517367996,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 878,
+        "5": 146
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 87505049875,
+      "b": 162425704056,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 842,
+        "5": 182
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 88792721619,
+      "b": 830638278700,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 166,
+        "7": 5
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 21,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 583,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            10,
+            12,
+            17,
+            33,
+            34,
+            36,
+            48,
+            72,
+            132,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 806,
+          "A12_supports": [
+            10,
+            12,
+            18,
+            34,
+            36,
+            48,
+            65,
+            68,
+            80,
+            96,
+            130,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 844,
+          "A12_supports": [
+            10,
+            12,
+            17,
+            18,
+            20,
+            36,
+            40,
+            48,
+            72,
+            80,
+            96,
+            132,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 921,
+          "A12_supports": [
+            10,
+            12,
+            24,
+            33,
+            40,
+            48,
+            65,
+            66,
+            80,
+            96,
+            129,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 1011,
+          "A12_supports": [
+            10,
+            12,
+            17,
+            20,
+            24,
+            33,
+            34,
+            48,
+            66,
+            68,
+            72,
+            80,
+            96,
+            129,
+            130,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 92782155476,
+      "b": 885071248090,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 863,
+        "5": 159,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 23,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            17,
+            20,
+            24,
+            33,
+            34,
+            36,
+            48,
+            65,
+            66,
+            72,
+            129
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 247,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            17,
+            20,
+            24,
+            33,
+            34,
+            36,
+            48,
+            66,
+            129,
+            130,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 95945462954,
+      "b": 328964923091,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 170,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 219,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            18,
+            33,
+            34,
+            40,
+            48,
+            65,
+            66,
+            72,
+            80,
+            96,
+            129,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 100713527665,
+      "b": 167492097578,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 869,
+        "5": 154,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 218,
+          "A12_supports": [
+            3,
+            6,
+            12,
+            34,
+            40,
+            66,
+            80,
+            129,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 101022102204,
+      "b": 331861670085,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 860,
+        "5": 160,
+        "7": 4
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 47,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            10,
+            12,
+            20,
+            24,
+            33,
+            34,
+            36,
+            40,
+            65,
+            66,
+            96,
+            130
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 242,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            10,
+            12,
+            17,
+            18,
+            20,
+            34,
+            72,
+            96,
+            129,
+            130,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 636,
+          "A12_supports": [
+            6,
+            9,
+            12,
+            18,
+            20,
+            24,
+            36,
+            40,
+            68,
+            72,
+            80,
+            96,
+            129,
+            130,
+            132,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 778,
+          "A12_supports": [
+            5,
+            12,
+            17,
+            18,
+            34,
+            40,
+            66,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 102787550295,
+      "b": 838874440187,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 842,
+        "5": 182
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 109239753685,
+      "b": 967586786787,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 155,
+        "7": 5
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 21,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 453,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            20,
+            33,
+            36,
+            48,
+            72,
+            96,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 548,
+          "A12_supports": [
+            3,
+            10,
+            17,
+            18,
+            20,
+            36,
+            48,
+            65,
+            130,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 562,
+          "A12_supports": [
+            3,
+            10,
+            18,
+            24,
+            34,
+            48,
+            66,
+            129,
+            130,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 710,
+          "A12_supports": [
+            3,
+            10,
+            18,
+            20,
+            34,
+            36,
+            48,
+            72,
+            132,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 1001,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            20,
+            24,
+            33,
+            40,
+            48,
+            65,
+            72,
+            80,
+            96,
+            130,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 114566339601,
+      "b": 885157040456,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "2": 480,
+        "4": 507,
+        "6": 34,
+        "10": 1,
+        "8": 2
+      },
+      "distinct_radicals": 542,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 118,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            17,
+            18,
+            24,
+            34,
+            36,
+            48,
+            66,
+            80,
+            96,
+            129,
+            130,
+            132,
+            192
+          ],
+          "radical_dimension": 10
+        },
+        {
+          "A12_choice": 379,
+          "A12_supports": [
+            3,
+            9,
+            10,
+            33,
+            34,
+            40,
+            48,
+            66,
+            129,
+            130,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 8
+        },
+        {
+          "A12_choice": 472,
+          "A12_supports": [
+            3,
+            9,
+            10,
+            18,
+            40,
+            48,
+            65,
+            66,
+            68,
+            129,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 8
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 122203085417,
+      "b": 701738070647,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 866,
+        "5": 158
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 127835854993,
+      "b": 859129457935,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 181,
+        "3": 841,
+        "7": 2
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 576,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            18,
+            20,
+            24,
+            48,
+            65,
+            68,
+            72,
+            96,
+            132,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 681,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            17,
+            24,
+            33,
+            40,
+            48,
+            68,
+            96,
+            130,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 131981262260,
+      "b": 713862086637,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 857,
+        "5": 167
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 136307675335,
+      "b": 321396183432,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "2": 415,
+        "4": 584,
+        "6": 25
+      },
+      "distinct_radicals": 610,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 140072905811,
+      "b": 596523993506,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 549,
+        "2": 453,
+        "6": 22
+      },
+      "distinct_radicals": 572,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 146831072957,
+      "b": 571563539451,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 870,
+        "5": 152,
+        "7": 2
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 133,
+          "A12_supports": [
+            3,
+            9,
+            10,
+            12,
+            17,
+            33,
+            36,
+            68,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 354,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            12,
+            17,
+            18,
+            20,
+            24,
+            34,
+            65,
+            68,
+            72,
+            80,
+            96,
+            130,
+            132,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 154618092934,
+      "b": 332645368672,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "2": 400,
+        "4": 597,
+        "6": 27
+      },
+      "distinct_radicals": 625,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 161394574166,
+      "b": 616902763198,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 852,
+        "5": 170,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 117,
+          "A12_supports": [
+            3,
+            9,
+            12,
+            18,
+            33,
+            36,
+            66,
+            72,
+            129,
+            130,
+            132
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 992,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            17,
+            20,
+            24,
+            65,
+            68,
+            72,
+            96,
+            130,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 163813602299,
+      "b": 381649467210,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 859,
+        "5": 161,
+        "7": 4
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 40,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            18,
+            20,
+            40,
+            66,
+            72,
+            80,
+            96,
+            130
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 131,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            33,
+            34,
+            65,
+            66,
+            68,
+            72,
+            80,
+            96,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 689,
+          "A12_supports": [
+            3,
+            17,
+            33,
+            65,
+            68,
+            72,
+            96,
+            129,
+            130,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 739,
+          "A12_supports": [
+            3,
+            33,
+            34,
+            66,
+            96,
+            130,
+            132,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 165991616611,
+      "b": 291345664277,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 865,
+        "5": 159
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 171576384101,
+      "b": 960687420509,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 168,
+        "3": 856
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 175499766971,
+      "b": 885071248090,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 847,
+        "5": 174,
+        "7": 3
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 356,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            17,
+            24,
+            36,
+            48,
+            65,
+            72,
+            80,
+            130,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 426,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            34,
+            40,
+            48,
+            65,
+            80,
+            130,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 688,
+          "A12_supports": [
+            3,
+            9,
+            12,
+            17,
+            20,
+            48,
+            66,
+            80,
+            96,
+            129,
+            130,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 177081922135,
+      "b": 652084823410,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 874,
+        "5": 149,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 981,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            12,
+            17,
+            20,
+            33,
+            36,
+            65,
+            66,
+            68,
+            72,
+            80,
+            129,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 182801262452,
+      "b": 679158719915,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 854,
+        "5": 170
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 184855526953,
+      "b": 825130546904,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 158,
+        "7": 2
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 420,
+          "A12_supports": [
+            5,
+            6,
+            10,
+            20,
+            24,
+            36,
+            66,
+            68,
+            80,
+            96,
+            130,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 808,
+          "A12_supports": [
+            6,
+            20,
+            40,
+            66,
+            96,
+            130,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 186127447693,
+      "b": 911664114759,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 867,
+        "5": 155,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 225,
+          "A12_supports": [
+            5,
+            6,
+            12,
+            18,
+            24,
+            33,
+            72,
+            80,
+            96,
+            130,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 322,
+          "A12_supports": [
+            9,
+            12,
+            24,
+            34,
+            65,
+            68,
+            72,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 188206248143,
+      "b": 825389741707,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 855,
+        "5": 167,
+        "7": 2
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 291,
+          "A12_supports": [
+            10,
+            18,
+            20,
+            24,
+            33,
+            34,
+            48,
+            66,
+            68,
+            72,
+            80,
+            130,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 488,
+          "A12_supports": [
+            10,
+            24,
+            40,
+            48,
+            66,
+            68,
+            80,
+            130,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 193683922391,
+      "b": 561999048878,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 165,
+        "3": 859
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 195194731624,
+      "b": 311576221172,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 859,
+        "5": 161,
+        "7": 4
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 13,
+          "A12_supports": [
+            3,
+            10,
+            12,
+            17,
+            18,
+            33,
+            36,
+            40,
+            65,
+            66,
+            68,
+            72,
+            80,
+            96,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 198,
+          "A12_supports": [
+            3,
+            10,
+            12,
+            17,
+            20,
+            34,
+            36,
+            65,
+            66,
+            68,
+            80,
+            96,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 217,
+          "A12_supports": [
+            3,
+            10,
+            12,
+            17,
+            18,
+            20,
+            24,
+            33,
+            40,
+            68,
+            80,
+            96,
+            129,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 980,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            12,
+            20,
+            36,
+            68,
+            80,
+            129,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 198591858396,
+      "b": 554381856305,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 867,
+        "5": 157
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 201663648933,
+      "b": 841225691369,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 862,
+        "5": 162
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 204383260850,
+      "b": 317482704069,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 149,
+        "3": 874,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 653,
+          "A12_supports": [
+            12,
+            33,
+            36,
+            40,
+            68,
+            72,
+            96,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 207559501214,
+      "b": 851577022438,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 873,
+        "5": 150,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 496,
+          "A12_supports": [
+            3,
+            6,
+            12,
+            17,
+            24,
+            48,
+            65,
+            66,
+            80,
+            96,
+            129,
+            130,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 211248368774,
+      "b": 670710608158,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 847,
+        "5": 177
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 212740674872,
+      "b": 922383368799,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "2": 449,
+        "4": 559,
+        "6": 16
+      },
+      "distinct_radicals": 576,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 216398733007,
+      "b": 306196482007,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 870,
+        "5": 153,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 346,
+          "A12_supports": [
+            3,
+            6,
+            12,
+            18,
+            20,
+            24,
+            34,
+            40,
+            48,
+            66,
+            72,
+            80,
+            96,
+            129,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 219386147592,
+      "b": 870881056461,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 159,
+        "3": 865
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 223810940296,
+      "b": 349686726426,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 880,
+        "5": 142,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 644,
+          "A12_supports": [
+            9,
+            10,
+            18,
+            20,
+            24,
+            36,
+            66,
+            80,
+            96,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 770,
+          "A12_supports": [
+            5,
+            6,
+            10,
+            17,
+            18,
+            34,
+            66,
+            68,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 225982666392,
+      "b": 289534169261,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 866,
+        "5": 158
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 230546250208,
+      "b": 553879102820,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 874,
+        "5": 149,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 503,
+          "A12_supports": [
+            3,
+            5,
+            12,
+            17,
+            33,
+            34,
+            36,
+            48,
+            68,
+            72,
+            129,
+            130,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 233203808662,
+      "b": 663615294246,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 852,
+        "5": 172
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 236705018759,
+      "b": 846915613531,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 857,
+        "5": 166,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 512,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            18,
+            24,
+            48,
+            72,
+            80,
+            96,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 239156534332,
+      "b": 836882344487,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 836,
+        "5": 188
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 245124000407,
+      "b": 405257284997,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 869,
+        "5": 154,
+        "7": 1
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 604,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12,
+            18,
+            36,
+            40,
+            65,
+            66,
+            68,
+            129,
+            132,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 249607789247,
+      "b": 680633951667,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 155,
+        "3": 868,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 766,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            34,
+            36,
+            40,
+            48,
+            65,
+            96,
+            129,
+            130,
+            132,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 250787090776,
+      "b": 836330582488,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 872,
+        "5": 150,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 626,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            12,
+            17,
+            18,
+            20,
+            24,
+            34,
+            80,
+            129,
+            130,
+            132,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 938,
+          "A12_supports": [
+            3,
+            12,
+            17,
+            18,
+            24,
+            34,
+            40,
+            65,
+            66,
+            72,
+            96,
+            130,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 255567609076,
+      "b": 938292354482,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 867,
+        "5": 155,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 325,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            10,
+            12,
+            24,
+            33,
+            36,
+            68,
+            132,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 397,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            10,
+            12,
+            20,
+            24,
+            33,
+            36,
+            40,
+            68,
+            72,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 260333885243,
+      "b": 940602954847,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 160
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 261430049255,
+      "b": 363465328136,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 851,
+        "5": 172,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 781,
+          "A12_supports": [
+            6,
+            17,
+            18,
+            20,
+            33,
+            36,
+            40,
+            48,
+            65,
+            68,
+            96,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 267132517840,
+      "b": 593186203811,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "2": 424,
+        "4": 586,
+        "6": 14
+      },
+      "distinct_radicals": 601,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 270162954316,
+      "b": 853636053563,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 863,
+        "7": 2,
+        "5": 159
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 14,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            12,
+            17,
+            20,
+            34,
+            36,
+            40,
+            66,
+            72,
+            80,
+            96,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 508,
+          "A12_supports": [
+            12,
+            20,
+            36,
+            40,
+            129,
+            130,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 275361026244,
+      "b": 647888298298,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 848,
+        "5": 174,
+        "7": 2
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 445,
+          "A12_supports": [
+            5,
+            9,
+            12,
+            18,
+            20,
+            24,
+            33,
+            36,
+            40,
+            66,
+            68,
+            72,
+            96,
+            129,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 511,
+          "A12_supports": [
+            5,
+            9,
+            12,
+            17,
+            18,
+            20,
+            24,
+            33,
+            34,
+            36,
+            40,
+            66,
+            96,
+            129,
+            130,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 286657488712,
+      "b": 605487090979,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 161,
+        "3": 860,
+        "7": 3
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 73,
+          "A12_supports": [
+            3,
+            6,
+            12,
+            17,
+            18,
+            24,
+            33,
+            40,
+            66,
+            68,
+            72,
+            80,
+            132,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 349,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            12,
+            17,
+            18,
+            20,
+            33,
+            36,
+            40,
+            65,
+            68,
+            72,
+            96,
+            129,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 953,
+          "A12_supports": [
+            3,
+            9,
+            10,
+            12,
+            17,
+            18,
+            24,
+            33,
+            40,
+            68,
+            80,
+            96,
+            129,
+            130,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 291988638923,
+      "b": 668193492984,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 845,
+        "5": 178,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 35,
+          "A12_supports": [
+            5,
+            6,
+            10,
+            12,
+            17,
+            18,
+            33,
+            34,
+            48,
+            65,
+            68,
+            72,
+            96,
+            130
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 299721275128,
+      "b": 657718761503,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 842,
+        "5": 182
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 308812314931,
+      "b": 715060029488,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 842,
+        "5": 181,
+        "7": 1
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 1001,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            17,
+            18,
+            24,
+            33,
+            40,
+            96,
+            130,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 312103731767,
+      "b": 677299060008,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 849,
+        "5": 173,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 438,
+          "A12_supports": [
+            3,
+            18,
+            20,
+            24,
+            34,
+            36,
+            65,
+            66,
+            68,
+            72,
+            80,
+            96,
+            129,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 878,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            18,
+            24,
+            34,
+            36,
+            40,
+            68,
+            96,
+            130,
+            132,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 321035830790,
+      "b": 605514874681,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 168,
+        "7": 3
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 60,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            12,
+            17,
+            20,
+            36,
+            40,
+            65,
+            66,
+            80,
+            96,
+            129,
+            130
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 727,
+          "A12_supports": [
+            3,
+            12,
+            17,
+            18,
+            33,
+            34,
+            36,
+            66,
+            72,
+            96,
+            129,
+            132,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 774,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            12,
+            34,
+            36,
+            65,
+            80,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 328250517555,
+      "b": 696453032730,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 866,
+        "5": 157,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 369,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            17,
+            18,
+            20,
+            24,
+            33,
+            48,
+            65,
+            96,
+            129,
+            130,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 333437762081,
+      "b": 590619896434,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 851,
+        "5": 172,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 130,
+          "A12_supports": [
+            9,
+            12,
+            34,
+            65,
+            66,
+            80,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 344754794104,
+      "b": 566378321381,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 155,
+        "7": 5
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 21,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 50,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            12,
+            20,
+            34,
+            65,
+            66,
+            72,
+            129,
+            130,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 354,
+          "A12_supports": [
+            3,
+            5,
+            12,
+            20,
+            34,
+            68,
+            80,
+            96,
+            130,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 365,
+          "A12_supports": [
+            3,
+            5,
+            12,
+            18,
+            20,
+            24,
+            33,
+            36,
+            40,
+            68,
+            80,
+            96,
+            130,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 390,
+          "A12_supports": [
+            3,
+            5,
+            12,
+            24,
+            34,
+            36,
+            65,
+            68,
+            72,
+            80,
+            96,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 694,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12,
+            24,
+            34,
+            36,
+            65,
+            66,
+            68,
+            72,
+            80,
+            129,
+            130,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 348309103459,
+      "b": 659989020529,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 872,
+        "5": 152
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 357270118225,
+      "b": 706072903436,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 848,
+        "5": 172,
+        "7": 4
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 121,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            12,
+            17,
+            18,
+            24,
+            33,
+            40,
+            65,
+            66,
+            68,
+            129,
+            130,
+            132,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 223,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            10,
+            12,
+            18,
+            20,
+            33,
+            34,
+            36,
+            40,
+            66,
+            129,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 683,
+          "A12_supports": [
+            3,
+            6,
+            12,
+            18,
+            24,
+            33,
+            34,
+            40,
+            68,
+            72,
+            80,
+            130,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 1023,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            12,
+            18,
+            20,
+            33,
+            34,
+            36,
+            40,
+            65,
+            66,
+            96,
+            129,
+            130,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 363465328136,
+      "b": 588797177132,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 877,
+        "5": 147
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 371019852345,
+      "b": 579784700822,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 860,
+        "5": 161,
+        "7": 3
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 366,
+          "A12_supports": [
+            9,
+            10,
+            12,
+            17,
+            24,
+            34,
+            36,
+            40,
+            48,
+            66,
+            68,
+            72,
+            96,
+            130,
+            132,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 387,
+          "A12_supports": [
+            9,
+            10,
+            12,
+            18,
+            33,
+            34,
+            48,
+            65,
+            66,
+            68,
+            96,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 404,
+          "A12_supports": [
+            9,
+            10,
+            12,
+            20,
+            24,
+            36,
+            48,
+            68,
+            96,
+            129,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 375935182862,
+      "b": 721148280602,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 159,
+        "3": 865
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 380681163304,
+      "b": 621474292701,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 168,
+        "7": 3
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 210,
+          "A12_supports": [
+            17,
+            20,
+            34,
+            65,
+            68,
+            80,
+            129,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 402,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            17,
+            20,
+            34,
+            65,
+            72,
+            96,
+            129,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 871,
+          "A12_supports": [
+            6,
+            9,
+            10,
+            18,
+            24,
+            33,
+            34,
+            36,
+            65,
+            66,
+            80,
+            96,
+            130,
+            132,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 386074842056,
+      "b": 624037027608,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 848,
+        "5": 175,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 159,
+          "A12_supports": [
+            5,
+            6,
+            10,
+            18,
+            24,
+            33,
+            34,
+            36,
+            40,
+            65,
+            72,
+            80,
+            129,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 400357942343,
+      "b": 778028581292,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 170,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 826,
+          "A12_supports": [
+            3,
+            6,
+            12,
+            17,
+            18,
+            24,
+            34,
+            40,
+            48,
+            66,
+            68,
+            72,
+            80,
+            96,
+            129,
+            130,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 401647985125,
+      "b": 770680075770,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 845,
+        "5": 178,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 651,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            17,
+            24,
+            33,
+            34,
+            40,
+            48,
+            68,
+            96,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 406361001152,
+      "b": 699442578266,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 187,
+        "3": 833,
+        "7": 4
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 420,
+          "A12_supports": [
+            3,
+            10,
+            12,
+            18,
+            36,
+            66,
+            68,
+            72,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 429,
+          "A12_supports": [
+            3,
+            10,
+            12,
+            17,
+            20,
+            33,
+            36,
+            40,
+            66,
+            68,
+            72,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 673,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            12,
+            17,
+            20,
+            24,
+            33,
+            66,
+            68,
+            72,
+            96,
+            130,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 905,
+          "A12_supports": [
+            3,
+            5,
+            12,
+            17,
+            24,
+            33,
+            40,
+            65,
+            66,
+            68,
+            72,
+            80,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 407376357363,
+      "b": 728302219961,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 862,
+        "5": 162
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 410492114437,
+      "b": 754668288944,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 845,
+        "5": 178,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 148,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            36,
+            66,
+            68,
+            72,
+            80,
+            129,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 413684471405,
+      "b": 554381856305,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 852,
+        "5": 172
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 422409809300,
+      "b": 712859790911,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 591,
+        "2": 413,
+        "6": 20
+      },
+      "distinct_radicals": 612,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 428347057593,
+      "b": 607043522865,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 169,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 271,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            12,
+            18,
+            20,
+            24,
+            33,
+            34,
+            36,
+            40,
+            48,
+            66,
+            68,
+            72,
+            80,
+            96,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 389,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            12,
+            17,
+            18,
+            24,
+            33,
+            36,
+            48,
+            66,
+            72,
+            80,
+            96,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 430713086532,
+      "b": 711834334254,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 170,
+        "3": 853,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 919,
+          "A12_supports": [
+            5,
+            9,
+            12,
+            17,
+            18,
+            20,
+            24,
+            33,
+            34,
+            36,
+            65,
+            66,
+            68,
+            80,
+            96,
+            129,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 435572890457,
+      "b": 747023320334,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 841,
+        "5": 181,
+        "7": 2
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 10,
+          "A12_supports": [
+            5,
+            9,
+            18,
+            20,
+            34,
+            40,
+            48,
+            68,
+            96
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 428,
+          "A12_supports": [
+            6,
+            17,
+            18,
+            24,
+            36,
+            40,
+            48,
+            65,
+            80,
+            130,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 439014676399,
+      "b": 700806700571,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 586,
+        "2": 424,
+        "6": 14
+      },
+      "distinct_radicals": 601,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 445954730729,
+      "b": 605293492618,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 873,
+        "5": 150,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 727,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            12,
+            17,
+            18,
+            33,
+            34,
+            36,
+            65,
+            66,
+            68,
+            129,
+            132,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 448511262502,
+      "b": 675701802281,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 160
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 450623405868,
+      "b": 786804878967,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 859,
+        "5": 164,
+        "7": 1
+      },
+      "distinct_radicals": 1022,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 413,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            12,
+            20,
+            24,
+            33,
+            36,
+            40,
+            48,
+            65,
+            80,
+            96,
+            129,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 456014268890,
+      "b": 571493016760,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 863,
+        "5": 160,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 125,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            10,
+            12,
+            33,
+            36,
+            40,
+            68,
+            80,
+            96,
+            129,
+            130,
+            132
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 460965499129,
+      "b": 630063104510,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 859,
+        "5": 162,
+        "7": 3
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 459,
+          "A12_supports": [
+            5,
+            10,
+            33,
+            34,
+            40,
+            48,
+            66,
+            68,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 683,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            33,
+            34,
+            40,
+            48,
+            65,
+            66,
+            72,
+            96,
+            130,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 698,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            17,
+            18,
+            34,
+            40,
+            48,
+            72,
+            96,
+            129,
+            130,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 466519937339,
+      "b": 701987530983,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 796,
+        "2": 228
+      },
+      "distinct_radicals": 797,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 468593879883,
+      "b": 727017560346,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 868,
+        "5": 152,
+        "7": 4
+      },
+      "distinct_radicals": 1021,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 141,
+          "A12_supports": [
+            6,
+            9,
+            20,
+            33,
+            36,
+            40,
+            65,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 365,
+          "A12_supports": [
+            5,
+            20,
+            33,
+            36,
+            40,
+            72,
+            80,
+            96,
+            130,
+            132,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 656,
+          "A12_supports": [
+            5,
+            6,
+            9,
+            10,
+            17,
+            18,
+            20,
+            24,
+            66,
+            80,
+            129,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 994,
+          "A12_supports": [
+            10,
+            18,
+            20,
+            24,
+            34,
+            68,
+            72,
+            96,
+            130,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 474681834336,
+      "b": 588801587001,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 875,
+        "5": 148,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 704,
+          "A12_supports": [
+            6,
+            9,
+            12,
+            18,
+            20,
+            24,
+            48,
+            66,
+            68,
+            72,
+            80,
+            132,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 477482375968,
+      "b": 796805322336,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 880,
+        "5": 142,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 477,
+          "A12_supports": [
+            5,
+            6,
+            10,
+            12,
+            20,
+            33,
+            36,
+            40,
+            65,
+            66,
+            68,
+            72,
+            80,
+            96,
+            129,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 1020,
+          "A12_supports": [
+            6,
+            12,
+            17,
+            18,
+            20,
+            36,
+            40,
+            66,
+            68,
+            72,
+            96,
+            129,
+            130,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 481211019259,
+      "b": 573897665567,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 832,
+        "5": 189,
+        "7": 3
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 750,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            17,
+            18,
+            24,
+            34,
+            36,
+            40,
+            48,
+            66,
+            68,
+            96,
+            130,
+            132,
+            136,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 794,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            17,
+            18,
+            20,
+            34,
+            40,
+            48,
+            68,
+            72,
+            80,
+            129,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 989,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            17,
+            24,
+            33,
+            36,
+            40,
+            48,
+            68,
+            80,
+            129,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 482991844799,
+      "b": 721097812585,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 586,
+        "2": 424,
+        "6": 14
+      },
+      "distinct_radicals": 601,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 486793085660,
+      "b": 755569082815,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 882,
+        "5": 142
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 488980923729,
+      "b": 580120181660,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 860,
+        "5": 161,
+        "7": 3
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 134,
+          "A12_supports": [
+            3,
+            12,
+            24,
+            34,
+            36,
+            65,
+            72,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 472,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            12,
+            17,
+            40,
+            66,
+            68,
+            80,
+            96,
+            129,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 663,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            12,
+            17,
+            18,
+            24,
+            33,
+            34,
+            36,
+            66,
+            72,
+            80,
+            129,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 491889132386,
+      "b": 728363068083,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 159,
+        "3": 865
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 497828582107,
+      "b": 697761528583,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 847,
+        "5": 177
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 500448530724,
+      "b": 582718460237,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 854,
+        "5": 168,
+        "7": 2
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 71,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            17,
+            18,
+            20,
+            33,
+            34,
+            36,
+            65,
+            66,
+            68,
+            72,
+            80,
+            96,
+            132
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 331,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            17,
+            18,
+            20,
+            24,
+            33,
+            34,
+            40,
+            65,
+            66,
+            68,
+            72,
+            132,
+            144
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 507041653788,
+      "b": 785981042353,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 849,
+        "5": 175
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 510059175384,
+      "b": 753773071543,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 565,
+        "2": 434,
+        "6": 25
+      },
+      "distinct_radicals": 591,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 513811722570,
+      "b": 603429161406,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 857,
+        "5": 166,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 236,
+          "A12_supports": [
+            6,
+            9,
+            10,
+            18,
+            24,
+            36,
+            40,
+            65,
+            72,
+            130,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 516005572279,
+      "b": 788773588565,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "5": 172,
+        "3": 848,
+        "7": 4
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 22,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            12,
+            17,
+            24,
+            34,
+            36,
+            68,
+            80,
+            129
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 300,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            12,
+            20,
+            24,
+            36,
+            40,
+            66,
+            68,
+            96,
+            130,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 952,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            12,
+            40,
+            65,
+            80,
+            96,
+            129,
+            130,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 982,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            12,
+            17,
+            24,
+            34,
+            36,
+            68,
+            72,
+            80,
+            96,
+            129,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 518111277183,
+      "b": 790060655666,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 866,
+        "5": 154,
+        "7": 4
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 19,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 130,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            12,
+            18,
+            34,
+            96,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 228,
+          "A12_supports": [
+            3,
+            5,
+            10,
+            12,
+            17,
+            18,
+            20,
+            24,
+            36,
+            65,
+            68,
+            72,
+            96,
+            130,
+            132,
+            136
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 492,
+          "A12_supports": [
+            3,
+            6,
+            9,
+            10,
+            12,
+            17,
+            18,
+            24,
+            36,
+            40,
+            65,
+            68,
+            72,
+            80,
+            130,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 960,
+          "A12_supports": [
+            3,
+            5,
+            6,
+            9,
+            12,
+            17,
+            18,
+            68,
+            72,
+            132,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 521020294181,
+      "b": 622840711248,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 872,
+        "5": 148,
+        "7": 4
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 20,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 500,
+          "A12_supports": [
+            3,
+            9,
+            17,
+            18,
+            36,
+            66,
+            68,
+            80,
+            129,
+            130,
+            132,
+            136,
+            144
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 541,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            20,
+            33,
+            36,
+            40,
+            65,
+            66,
+            68,
+            72,
+            80,
+            96,
+            129,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 750,
+          "A12_supports": [
+            3,
+            6,
+            10,
+            18,
+            20,
+            34,
+            36,
+            40,
+            65,
+            68,
+            80,
+            96,
+            130,
+            132,
+            136,
+            160
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 907,
+          "A12_supports": [
+            3,
+            5,
+            9,
+            10,
+            17,
+            24,
+            33,
+            34,
+            40,
+            72,
+            136,
+            144,
+            160
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 523515538014,
+      "b": 573885986270,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 861,
+        "5": 163
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 528275633392,
+      "b": 641425456040,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 864,
+        "5": 159,
+        "7": 1
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 894,
+          "A12_supports": [
+            6,
+            9,
+            10,
+            18,
+            24,
+            34,
+            36,
+            40,
+            48,
+            65,
+            66,
+            68,
+            72,
+            129,
+            130,
+            132,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 532493540115,
+      "b": 641122124760,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 852,
+        "5": 172
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 535758521279,
+      "b": 751074568227,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 853,
+        "5": 169,
+        "7": 2
+      },
+      "distinct_radicals": 1024,
+      "cross_checks": 18,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 483,
+          "A12_supports": [
+            5,
+            9,
+            10,
+            12,
+            17,
+            33,
+            34,
+            48,
+            65,
+            66,
+            72,
+            130,
+            132,
+            136,
+            144,
+            192
+          ],
+          "radical_dimension": 7
+        },
+        {
+          "A12_choice": 1010,
+          "A12_supports": [
+            9,
+            12,
+            18,
+            34,
+            48,
+            72,
+            80,
+            129,
+            130,
+            132,
+            136,
+            144,
+            160,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    },
+    {
+      "a": 542162777229,
+      "b": 820889784200,
+      "dimension_C": 22,
+      "radical_dimension_histogram": {
+        "4": 565,
+        "2": 424,
+        "6": 35
+      },
+      "distinct_radicals": 601,
+      "cross_checks": 16,
+      "directly_verified_radicals_of_dimension_at_least_seven": [],
+      "hits": []
+    },
+    {
+      "a": 546543870391,
+      "b": 578239905981,
+      "dimension_C": 21,
+      "radical_dimension_histogram": {
+        "3": 860,
+        "5": 163,
+        "7": 1
+      },
+      "distinct_radicals": 1023,
+      "cross_checks": 17,
+      "directly_verified_radicals_of_dimension_at_least_seven": [
+        {
+          "A12_choice": 239,
+          "A12_supports": [
+            6,
+            9,
+            18,
+            20,
+            33,
+            34,
+            36,
+            40,
+            65,
+            72,
+            80,
+            130,
+            132,
+            136,
+            192
+          ],
+          "radical_dimension": 7
+        }
+      ],
+      "hits": []
+    }
+  ]
+}

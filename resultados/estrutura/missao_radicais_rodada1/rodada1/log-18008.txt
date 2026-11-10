@@ -1,0 +1,34 @@
+controles: dim J = 18, posto beta = 10
+{'radical_dimensions': {8: 768, 16: 255}, 'distinct_vectors_in_small_radicals': 187681, 'rank24_and_zero_form_a_subspace': False}
+{'a': 717804031145, 'b_candidates_with_rank_deficiency': 73190, 'pairs_in_N': [{'b': 489699588294, 'lambda_mu': [650, 325]}, {'b': 915434828911, 'lambda_mu': [975, 325]}]}
+{'a': 196640089031, 'b_candidates_with_rank_deficiency': 65610, 'pairs_in_N': [{'b': 246102264812, 'lambda_mu': [700, 360]}, {'b': 88122271787, 'lambda_mu': [980, 360]}, {'b': 689041925516, 'lambda_mu': [261, 783]}, {'b': 608386991691, 'lambda_mu': [522, 783]}, {'b': 690041256889, 'lambda_mu': [360, 980]}, {'b': 607217801342, 'lambda_mu': [700, 980]}]}
+{'a': 1018182829950, 'b_candidates_with_rank_deficiency': 63434, 'pairs_in_N': [{'b': 113755831770, 'lambda_mu': [593, 499]}, {'b': 1062669728420, 'lambda_mu': [930, 499]}]}
+{'a': 480099549740, 'b_candidates_with_rank_deficiency': 69966, 'pairs_in_N': [{'b': 671749677791, 'lambda_mu': [551, 286]}, {'b': 1046618267891, 'lambda_mu': [825, 286]}]}
+{'a': 947738592122, 'b_candidates_with_rank_deficiency': 70006, 'pairs_in_N': [{'b': 906184143763, 'lambda_mu': [544, 272]}, {'b': 61561368809, 'lambda_mu': [816, 272]}]}
+{'a': 634995761764, 'b_candidates_with_rank_deficiency': 63586, 'pairs_in_N': []}
+{'a': 894536956282, 'b_candidates_with_rank_deficiency': 63546, 'pairs_in_N': []}
+{'a': 939076673165, 'b_candidates_with_rank_deficiency': 66262, 'pairs_in_N': []}
+{'a': 946150371938, 'b_candidates_with_rank_deficiency': 69186, 'pairs_in_N': []}
+{'a': 518111277183, 'b_candidates_with_rank_deficiency': 65958, 'pairs_in_N': [{'b': 790060655666, 'lambda_mu': [122, 229]}, {'b': 890444338253, 'lambda_mu': [159, 229]}, {'b': 106825359042, 'lambda_mu': [85, 255]}, {'b': 414441221821, 'lambda_mu': [170, 255]}]}
+{'a': 85456180762, 'b_candidates_with_rank_deficiency': 75206, 'pairs_in_N': [{'b': 584986853149, 'lambda_mu': [742, 413]}, {'b': 669318326535, 'lambda_mu': [891, 413]}, {'b': 752517367996, 'lambda_mu': [598, 509]}, {'b': 810944700070, 'lambda_mu': [939, 509]}, {'b': 165925485711, 'lambda_mu': [509, 598]}, {'b': 228781992597, 'lambda_mu': [939, 598]}]}
+{'a': 966300260380, 'b_candidates_with_rank_deficiency': 75970, 'pairs_in_N': []}
+{'a': 913725828524, 'b_candidates_with_rank_deficiency': 79134, 'pairs_in_N': [{'b': 838874440187, 'lambda_mu': [722, 433]}, {'b': 102787550295, 'lambda_mu': [867, 433]}]}
+{'a': 564141620278, 'b_candidates_with_rank_deficiency': 63710, 'pairs_in_N': [{'b': 1078861034239, 'lambda_mu': [122, 229]}, {'b': 517146480329, 'lambda_mu': [159, 229]}]}
+{'a': 327750110224, 'b_candidates_with_rank_deficiency': 65786, 'pairs_in_N': []}
+{'a': 691910285961, 'b_candidates_with_rank_deficiency': 71158, 'pairs_in_N': [{'b': 899167055917, 'lambda_mu': [159, 122]}, {'b': 482170464932, 'lambda_mu': [229, 122]}, {'b': 1025902713245, 'lambda_mu': [748, 408]}, {'b': 342615917332, 'lambda_mu': [884, 408]}]}
+{'a': 265032505251, 'b_candidates_with_rank_deficiency': 70022, 'pairs_in_N': []}
+{'a': 74692832253, 'b_candidates_with_rank_deficiency': 67866, 'pairs_in_N': [{'b': 1086056587448, 'lambda_mu': [99, 210]}, {'b': 1021028748101, 'lambda_mu': [177, 210]}]}
+{'a': 1063425491526, 'b_candidates_with_rank_deficiency': 63646, 'pairs_in_N': [{'b': 268582059810, 'lambda_mu': [151, 126]}, {'b': 863584501092, 'lambda_mu': [233, 126]}]}
+{'a': 89910113507, 'b_candidates_with_rank_deficiency': 63374, 'pairs_in_N': []}
+{'a': 1012779132689, 'b_candidates_with_rank_deficiency': 67722, 'pairs_in_N': []}
+{'a': 634595679651, 'b_candidates_with_rank_deficiency': 63526, 'pairs_in_N': []}
+{'a': 481558808754, 'b_candidates_with_rank_deficiency': 65642, 'pairs_in_N': [{'b': 952125533628, 'lambda_mu': [40, 20]}, {'b': 745986254094, 'lambda_mu': [60, 20]}, {'b': 623444783513, 'lambda_mu': [622, 473]}, {'b': 967291451691, 'lambda_mu': [951, 473]}]}
+{'a': 438797735966, 'b_candidates_with_rank_deficiency': 65934, 'pairs_in_N': []}
+{'a': 644540501473, 'b_candidates_with_rank_deficiency': 61366, 'pairs_in_N': [{'b': 713740716017, 'lambda_mu': [2, 1]}, {'b': 207229585936, 'lambda_mu': [3, 1]}]}
+{'a': 974239276770, 'b_candidates_with_rank_deficiency': 63834, 'pairs_in_N': [{'b': 258560880585, 'lambda_mu': [442, 735]}, {'b': 957345853739, 'lambda_mu': [869, 735]}]}
+{'a': 1040430787290, 'b_candidates_with_rank_deficiency': 67650, 'pairs_in_N': []}
+{'a': 269738872566, 'b_candidates_with_rank_deficiency': 69650, 'pairs_in_N': [{'b': 593783485145, 'lambda_mu': [16, 48]}, {'b': 775475461167, 'lambda_mu': [32, 48]}]}
+{'a': 1026193388680, 'b_candidates_with_rank_deficiency': 70966, 'pairs_in_N': [{'b': 607043522865, 'lambda_mu': [448, 576]}, {'b': 428347057593, 'lambda_mu': [896, 576]}, {'b': 559795261111, 'lambda_mu': [510, 709]}, {'b': 467002309183, 'lambda_mu': [827, 709]}]}
+{'a': 1082540706842, 'b_candidates_with_rank_deficiency': 67758, 'pairs_in_N': [{'b': 840884593337, 'lambda_mu': [299, 790]}, {'b': 273885228707, 'lambda_mu': [573, 790]}]}
+{'a': 888145351006, 'b_candidates_with_rank_deficiency': 65802, 'pairs_in_N': []}
+{'a': 1066318537899, 'b_candidates_with_rank_deficiency': 66658, 'pairs_in_N': [{'b': 258091142519, 'lambda_mu': [398, 841]}, {'b': 799599818256, 'lambda_mu': [398, 841]}, {'b': 285318927035, 'lambda_mu': [711, 841]}, {'b': 843204520412, 'lambda_mu': [711, 841]}]}

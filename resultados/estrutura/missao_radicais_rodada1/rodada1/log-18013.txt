@@ -1,0 +1,34 @@
+controles: dim J = 18, posto beta = 10
+{'radical_dimensions': {8: 768, 16: 255}, 'distinct_vectors_in_small_radicals': 187681, 'rank24_and_zero_form_a_subspace': False}
+{'a': 630394967203, 'b_candidates_with_rank_deficiency': 82278, 'pairs_in_N': [{'b': 671255797325, 'lambda_mu': [16, 48]}, {'b': 62537157358, 'lambda_mu': [32, 48]}]}
+{'a': 661048541001, 'b_candidates_with_rank_deficiency': 65606, 'pairs_in_N': []}
+{'a': 952858366427, 'b_candidates_with_rank_deficiency': 65758, 'pairs_in_N': []}
+{'a': 346281839734, 'b_candidates_with_rank_deficiency': 63590, 'pairs_in_N': []}
+{'a': 971166730612, 'b_candidates_with_rank_deficiency': 63618, 'pairs_in_N': []}
+{'a': 316628586085, 'b_candidates_with_rank_deficiency': 70838, 'pairs_in_N': [{'b': 781270514552, 'lambda_mu': [132, 76]}, {'b': 1083939304733, 'lambda_mu': [200, 76]}]}
+{'a': 404860821584, 'b_candidates_with_rank_deficiency': 64318, 'pairs_in_N': []}
+{'a': 893075782108, 'b_candidates_with_rank_deficiency': 60842, 'pairs_in_N': [{'b': 701987530983, 'lambda_mu': [2, 1]}, {'b': 466519937339, 'lambda_mu': [3, 1]}]}
+{'a': 977194122445, 'b_candidates_with_rank_deficiency': 66486, 'pairs_in_N': []}
+{'a': 920643728350, 'b_candidates_with_rank_deficiency': 61246, 'pairs_in_N': [{'b': 1072267084647, 'lambda_mu': [2, 1]}, {'b': 205935947961, 'lambda_mu': [3, 1]}]}
+{'a': 6345082252, 'b_candidates_with_rank_deficiency': 69354, 'pairs_in_N': [{'b': 991074374060, 'lambda_mu': [436, 728]}, {'b': 995267482656, 'lambda_mu': [876, 728]}]}
+{'a': 431952312196, 'b_candidates_with_rank_deficiency': 68650, 'pairs_in_N': []}
+{'a': 163813602299, 'b_candidates_with_rank_deficiency': 66770, 'pairs_in_N': [{'b': 60018367761, 'lambda_mu': [122, 229]}, {'b': 545328301233, 'lambda_mu': [122, 229]}, {'b': 188396777194, 'lambda_mu': [159, 229]}, {'b': 381649467210, 'lambda_mu': [159, 229]}, {'b': 535911615714, 'lambda_mu': [519, 270]}, {'b': 390353354521, 'lambda_mu': [777, 270]}]}
+{'a': 430713086532, 'b_candidates_with_rank_deficiency': 70866, 'pairs_in_N': [{'b': 711834334254, 'lambda_mu': [159, 122]}, {'b': 833024546410, 'lambda_mu': [229, 122]}]}
+{'a': 982777733164, 'b_candidates_with_rank_deficiency': 67102, 'pairs_in_N': []}
+{'a': 995116765675, 'b_candidates_with_rank_deficiency': 63326, 'pairs_in_N': [{'b': 614382137275, 'lambda_mu': [24, 52]}, {'b': 449857175120, 'lambda_mu': [44, 52]}]}
+{'a': 968652671467, 'b_candidates_with_rank_deficiency': 63534, 'pairs_in_N': []}
+{'a': 67050016244, 'b_candidates_with_rank_deficiency': 66078, 'pairs_in_N': [{'b': 1017080563419, 'lambda_mu': [665, 375]}, {'b': 976346401583, 'lambda_mu': [1006, 375]}]}
+{'a': 809084699683, 'b_candidates_with_rank_deficiency': 63506, 'pairs_in_N': [{'b': 522734541333, 'lambda_mu': [694, 365]}, {'b': 849671413302, 'lambda_mu': [987, 365]}]}
+{'a': 1022464782475, 'b_candidates_with_rank_deficiency': 63590, 'pairs_in_N': [{'b': 593160211053, 'lambda_mu': [39, 1022]}, {'b': 429844658918, 'lambda_mu': [985, 1022]}]}
+{'a': 433266410161, 'b_candidates_with_rank_deficiency': 69794, 'pairs_in_N': []}
+{'a': 437830373333, 'b_candidates_with_rank_deficiency': 63482, 'pairs_in_N': []}
+{'a': 1072546121342, 'b_candidates_with_rank_deficiency': 63638, 'pairs_in_N': []}
+{'a': 493553359477, 'b_candidates_with_rank_deficiency': 63626, 'pairs_in_N': [{'b': 462761355106, 'lambda_mu': [406, 893]}, {'b': 108794707223, 'lambda_mu': [747, 893]}]}
+{'a': 824293772478, 'b_candidates_with_rank_deficiency': 64270, 'pairs_in_N': []}
+{'a': 411916686268, 'b_candidates_with_rank_deficiency': 67962, 'pairs_in_N': [{'b': 1061994982677, 'lambda_mu': [68, 204]}, {'b': 724439187113, 'lambda_mu': [136, 204]}]}
+{'a': 1026926073065, 'b_candidates_with_rank_deficiency': 67814, 'pairs_in_N': []}
+{'a': 913357281421, 'b_candidates_with_rank_deficiency': 65498, 'pairs_in_N': [{'b': 132042172589, 'lambda_mu': [114, 147]}, {'b': 867952865312, 'lambda_mu': [225, 147]}]}
+{'a': 573897665567, 'b_candidates_with_rank_deficiency': 67190, 'pairs_in_N': [{'b': 1054760371172, 'lambda_mu': [389, 847]}, {'b': 481211019259, 'lambda_mu': [714, 847]}]}
+{'a': 11399947920, 'b_candidates_with_rank_deficiency': 65862, 'pairs_in_N': []}
+{'a': 22801902503, 'b_candidates_with_rank_deficiency': 68698, 'pairs_in_N': []}
+{'a': 900554190173, 'b_candidates_with_rank_deficiency': 63350, 'pairs_in_N': []}
