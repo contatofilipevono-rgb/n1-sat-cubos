@@ -1,0 +1,50 @@
+name: bloco-dim4
+# Quarticas RS bent em n = 12, bloco de dimensao quatro (V1 ou V2): contagem das fases dos mapas
+# auto-ortogonais listados em bloco_dim4_n12/mapas_<V>.txt.  Ver bloco_dim4_n12/LEIA.md.
+on:
+  workflow_dispatch:
+    inputs:
+      bloco: {description: "V1 ou V2", required: true, default: "V1"}
+      n: {description: "numero de fatias (jobs)", required: true, default: "20"}
+      sha: {description: "sha256 esperado de gens_<V>.bin", required: true, default: "e44bbaa32d4f06aa3fe3cb548e22b7ef2a9e663f33db0e28373fc469881bba2f"}
+
+jobs:
+  prepara:
+    runs-on: ubuntu-latest
+    outputs:
+      fatias: ${{ steps.m.outputs.fatias }}
+    steps:
+      - id: m
+        run: echo "fatias=$(python3 -c "print(list(range(int('${{ inputs.n }}'))))")" >> "$GITHUB_OUTPUT"
+
+  fases:
+    needs: prepara
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        fatia: ${{ fromJSON(needs.prepara.outputs.fatias) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q "numpy>=2.0"
+      - name: reconstroi a base e confere o hash
+        working-directory: bloco_dim4_n12
+        run: |
+          python -u base4.py ${{ inputs.bloco }}
+          python -u exporta.py ${{ inputs.bloco }}
+          echo "${{ inputs.sha }}  gens_${{ inputs.bloco }}.bin" | sha256sum -c -
+      - name: fases
+        working-directory: bloco_dim4_n12
+        run: python -u fases.py ${{ inputs.bloco }} ${{ matrix.fatia }} ${{ inputs.n }} | tee log_${{ inputs.bloco }}_${{ matrix.fatia }}.txt
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fases-${{ inputs.bloco }}-${{ matrix.fatia }}
+          path: |
+            bloco_dim4_n12/fases_${{ inputs.bloco }}_*.json
+            bloco_dim4_n12/log_${{ inputs.bloco }}_${{ matrix.fatia }}.txt
+          retention-days: 30
