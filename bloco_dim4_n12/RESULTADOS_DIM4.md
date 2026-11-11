@@ -102,7 +102,38 @@ Fases: workflow `bloco-dim4` no GitHub (run 42943488389, 20 fatias, todas conclu
 | 5:8, 6:8 | 32 | 2¹³ | 262.144 |
 | 5:4, 6:12 | 8 | 3·2¹³ | 196.608 |
 
-**[O]** Em V1 não aparece posto 7; em 64 dos 120 mapas nenhuma fibra é plana. Lista em `V1_exclusivo_mapas.json`. Não reconstruí testemunhas de V1 nem busquei a forma fechada dos seus (q₁,q₂).
+**[O]** Em V1 não aparece posto 7; em 64 dos 120 mapas nenhuma fibra é plana. Lista em `V1_exclusivo_mapas.json`.
+
+**[C]** Testemunhas: uma função de cada uma das quatro linhas acima foi reconstruída em F₂¹², com RS, grau exatamente 4, os 4.096 coeficientes de Walsh ±64, afim em V1 e não afim em U (`testemunhas_V1.json`).
+
+### 4.1 Forma fechada dos seis pares (q₁, q₂) — **[C]** (`formas_V1.py`)
+
+V1 = {w : w·27 = w·54 = 0}. Com r_m(z) = z·m e 𝟏 = 63:
+
+**q₁(z) = r₅₄(z)·μ(z), q₂(z) = r₄₅(z)·μ(z), μ(z) = Mz + c·𝟏** (restrito a V1).
+
+| M | c | mapas | funções |
+|---|---|---|---|
+| R²(I+R²) | 0 | 8 | 196.608 |
+| R²(I+R²) | 1 | 32 | 262.144 |
+| R(I+R²) | 1 | 32 | 524.288 |
+| I+R² | 1 | 32 | 524.288 |
+| I+R | 1 | 8 | 196.608 |
+| R²(I+R) | 1 | 8 | 196.608 |
+
+Os 120 mapas caem todos numa dessas seis formas, e a soma dá 1.900.544. M está definido módulo V1^⊥ = {0, 27, 54, 45}; escolhi o representante de menor peso.
+
+## 4.2 A mesma forma nos dois blocos
+
+Em V1, com ρ_m(w) = w·m e θ_z = r₅₄(z)·ρ₂₇ + r₂₇(z)·ρ₅₄, vale θ_z(e₀) = r₅₄(z) e θ_z(e₁) = r₄₅(z). Logo, módulo o termo livre nas duas coordenadas do complemento:
+
+| bloco | funcionais que definem V | θ_z | B_z |
+|---|---|---|---|
+| U | σ | (1+s(z))·σ | θ_z ∧ Nz |
+| V2 | ε_e, ε_o | s_o(z)·ε_e + s_e(z)·ε_o | θ_z ∧ Mz, mais a forma de U no tipo B |
+| V1 | ρ₂₇, ρ₅₄ | r₅₄(z)·ρ₂₇ + r₂₇(z)·ρ₅₄ | θ_z ∧ (Mz + c·𝟏) |
+
+Em V1 e V2, **θ_z é a forma cruzada**: o coeficiente de cada funcional de w é o *outro* funcional avaliado em z. Isso garante θ_z(z) = 0, que é a parte da meia-volta B_z z = 0 que não depende de M. **[O]** É a regularidade a provar: toda função exclusiva de dimensão quatro tem polar de posto ≤ 2 da forma θ_z ∧ μ(z), com μ afim em z.
 
 **Soma dos dois blocos: 2.326.528 + 1.900.544 = 4.227.072**, o total do catálogo para dimensão quatro.
 
@@ -116,7 +147,7 @@ Para f afim nas classes de V com dim V = r, as fibras têm N = 2^{12−2r} ponto
 
 ## 6. O que falta
 
-1. Testemunhas e forma fechada dos (q₁,q₂) de V1.
-2. Provar à mão que só as formas θ_z∧Mz da seção 3.1 ocorrem (hoje é resultado da enumeração).
+1. Provar que a polar é sempre θ_z ∧ μ(z) com θ_z cruzada (seção 4.2), e deduzir a lista de M admissíveis em cada bloco.
+2. Testar se a mesma forma, com três funcionais, descreve o bloco de dimensão três.
 3. Explicar d e o corte quadrático por família.
 4. O critério de ordem mais alta para t = 3 e t = 4.
