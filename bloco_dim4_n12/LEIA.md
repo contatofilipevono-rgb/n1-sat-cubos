@@ -25,9 +25,11 @@ O critério das fibras é o de `LEMA_FIBRAS_16.md`, com verificador em `verifica
 | mapas percorridos | 2³¹ | 2³³ |
 | todas as fibras com 16 pontos | 5.612.360 | 2.630.416 |
 | auto-ortogonais | 166.472 | 113.040 |
-| exclusivos (fora do bloco U e do antipodal) | 17.040 mapas | a contar |
-| funções bent exclusivas | **2.326.528** | a contar (catálogo: 1.900.544) |
+| mapas exclusivos com fase | 768 | 120 |
+| funções bent exclusivas | **2.326.528** | **1.900.544** |
 
-V2 exclusivo: 4.032 mapas caem por fibra de posto 8, 10.224 pelo sistema linear, 1.920 pela condição quadrática, e 864 admitem fase. O total confere com o catálogo.
+V2 exclusivo: 4.032 mapas caem por fibra de posto 8, 10.224 pelo sistema linear, 2.016 pela condição quadrática, e 768 admitem fase. O total confere com o catálogo.
 
-A enumeração de V2 e V1 (passo 3) rodou localmente; as fases de V1 rodam no workflow `bloco-dim4`.
+Os dois totais conferem com o catálogo, e somam 4.227.072. Detalhes, famílias e formas fechadas em `RESULTADOS_DIM4.md`.
+
+A enumeração de V2 e V1 (passo 3) e as fases de V2 rodaram localmente; as fases de V1 rodaram no workflow `bloco-dim4` (run 42943488389).
